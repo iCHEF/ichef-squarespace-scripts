@@ -20,5 +20,8 @@
   "homepage": "https://github.com/iCHEF/ichef-website-scripts#readme",
   "devDependencies": {
     "nwb": "^0.12.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }
