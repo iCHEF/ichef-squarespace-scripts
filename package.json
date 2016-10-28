@@ -4,6 +4,7 @@
   "description": "scripts for ichefpos.com",
   "main": "lib/index.js",
   "scripts": {
+    "start": "nwb serve-web-app",
     "build": "nwb build-web-module",
     "clean": "nwb clean-module"
   },
