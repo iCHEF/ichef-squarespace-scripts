@@ -50,6 +50,6 @@ import {
             if (seo.zendesk) applyZendeskChat(seo.zendesk);
         }
     } catch (error) {
-        console.error('No current locale data');
+        // console.error('No current locale data');
     }
 }());
