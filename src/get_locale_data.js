@@ -17,8 +17,7 @@ function getLocaleCode(currentPathname) {
 function getLocaleData() {
     const localeCode = getLocaleCode(window.location.pathname);
 
-    return ajax(`${LOCALE_JSON_HOST}/${localeCode}.json`)
-        .catch(() => {});
+    return ajax(`${LOCALE_JSON_HOST}/${localeCode}.json`);
 }
 
 export default getLocaleData;
