@@ -7,7 +7,15 @@ const LOCALE_JSON_HOST = '//ichef.github.io/ichef-squarespace-scripts/locale_dat
 // -------------------------------------
 
 function getLocaleCode(currentPathname) {
-    return currentPathname.split(/[\/\/]/)[1];
+    const pathnameArray = currentPathname.split(/[\/\/]/);
+    const localePath = pathnameArray[1];
+
+    // If event page, return `event-XXX`
+    if (localePath === 'event') {
+        return `event/${pathnameArray[2]}`;
+    }
+
+    return localePath;
 }
 
 // -------------------------------------
