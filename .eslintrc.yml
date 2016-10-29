@@ -22,3 +22,4 @@ rules:
     indent: [2, 4, { "SwitchCase": 1 }]
     no-unused-vars: [1, { "args": "after-used" }]
     no-underscore-dangle: ["error", { "allowAfterThis": true }]
+    no-console: 0
