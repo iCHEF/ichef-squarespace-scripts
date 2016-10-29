@@ -12,6 +12,12 @@ import {
     updateFooterNav
 } from './update_footer';
 
+import {
+    applyGTM,
+    applyFacebookPixel,
+    applyZendeskChat
+} from './seo';
+
 (async function ichefSquarespaceScripts() {
     try {
         const {
@@ -22,7 +28,9 @@ import {
             companyInfo,
             socialLinks,
             currentLocale,
-            footerNav
+            footerNav,
+            // SEO
+            seo
         } = await getlocaleData() || {};
 
         // Update header contents
@@ -34,6 +42,13 @@ import {
         if (socialLinks) updateFooterSocialLinks(socialLinks);
         if (currentLocale) updateFooterCurrentLocale(currentLocale);
         if (footerNav) updateFooterNav(footerNav);
+
+        // Apply SEO(s)
+        if (seo) {
+            if (seo.gtm) applyGTM(seo.gtm);
+            if (seo.pixel) applyFacebookPixel(seo.pixel);
+            if (seo.zendesk) applyZendeskChat(seo.zendesk);
+        }
     } catch (error) {
         console.error(error);
     }

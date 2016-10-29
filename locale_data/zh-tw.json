@@ -52,5 +52,11 @@
     "currentLocale": {
         "name": "台灣中文",
         "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-TNFN22",
+        "pixel": "1022392204518447",
+        "zendesk": "3pTOzVCCRyRDDgXoq5FByXel7ftIw8PQ"
     }
 }
