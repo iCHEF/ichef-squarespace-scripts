@@ -1,6 +1,6 @@
 import { ajax } from 'jquery';
 
-const LOCALE_JSON_HOST = '//localhost:8080';
+const LOCALE_JSON_HOST = '//ichef.github.io/ichef-squarespace-scripts/locale_data';
 
 // -------------------------------------
 //   Get localization code from URL
