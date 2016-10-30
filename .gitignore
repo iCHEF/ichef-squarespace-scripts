@@ -3,3 +3,4 @@ npm-debug.log*
 
 /umd
 /lib
+/tmp_deploy

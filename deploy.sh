@@ -11,7 +11,7 @@ mkdir $TMP_FOLDER
 
 # Copy files
 cp -r ./locale_data/ ./$TMP_FOLDER/locale_data
-cp -r ./umd/ ./$TMP_FOLDER
+cp -r ./umd/. ./$TMP_FOLDER
 
 # Git init
 cd $TMP_FOLDER
