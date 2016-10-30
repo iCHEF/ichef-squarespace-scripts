@@ -4,11 +4,16 @@ branches:
 
 language: node_js
 node_js:
-    - "6.1"
+    - stable
 
 cache:
     directories:
         - $HOME/.yarn-cache
+
+env:
+    global:
+        - ENCRYPTION_LABEL: "16a5c1ffc550"
+        - COMMIT_AUTHOR_EMAIL: "developer@ichef.com.tw"
 
 before_install:
     # Repo for newer Node.js versions
