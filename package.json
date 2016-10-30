@@ -1,24 +1,24 @@
 {
-  "name": "ichef-website-scripts",
+  "name": "ichef-squarespace-scripts",
   "version": "1.0.0",
-  "description": "scripts for ichefpos.com",
+  "description": "Squarespace hack for ichefpos.com",
   "main": "lib/index.js",
   "scripts": {
     "start": "nwb serve-web-app",
     "build": "nwb build-web-module",
     "clean": "nwb clean-module"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://cjies@github.com/iCHEF/ichef-website-scripts.git"
-  },
-  "author": "",
+  "repository": "iCHEF/ichef-squarespace-scripts",
   "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/iCHEF/ichef-website-scripts/issues"
-  },
-  "homepage": "https://github.com/iCHEF/ichef-website-scripts#readme",
+  "private": true,
   "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1",
     "nwb": "^0.12.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }

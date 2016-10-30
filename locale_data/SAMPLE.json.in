@@ -1,0 +1,41 @@
+{
+    "headerLogo": {
+        "image": "",
+        "link": ""
+    },
+
+    "headerNav": [
+        { "name": "", "link": "", "type": "index" },
+        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+    ],
+
+    "footerNav": [
+        { "name": "", "link": "", "type": "page" },
+        { "name": "", "links": [
+            { "name": "", "link": "" }
+        ], "type": "folders" }
+    ],
+
+    "companyInfo": [
+      "COMPANY_NAME",
+      "COMPANY_ADDRESS"
+      "COMPANY_PHONE_NUMBER"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichefhk/",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:service@ichef.com.hk"
+    },
+
+    "currentLocale": {
+        "name": "",
+        "image": ""
+    },
+
+    "seo": {
+        "gtm": "",
+        "pixel": "",
+        "zendesk": ""
+    }
+}

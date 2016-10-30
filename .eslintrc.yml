@@ -1,0 +1,25 @@
+root: true
+
+env:
+    es6: true
+    browser: true
+    node: true
+
+extends: airbnb-base
+
+parser: babel-eslint
+
+globals:
+    __DEV__: true
+    __TEST__: true
+    __PROD__: true
+
+rules:
+    # Guidelines
+    comma-dangle: 0
+    new-cap: [0, {capIsNew: true, newIsCap: true}]
+    prefer-const: 2
+    indent: [2, 4, { "SwitchCase": 1 }]
+    no-unused-vars: [1, { "args": "after-used" }]
+    no-underscore-dangle: ["error", { "allowAfterThis": true }]
+    no-console: 0

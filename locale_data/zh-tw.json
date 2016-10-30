@@ -1,0 +1,62 @@
+{
+    "headerLogo": {
+        "image": "https://icheftw.squarespace.com/s/iCHEF-index-Logo-white.png",
+        "link": "http://www.ichefpos.com/zh-tw"
+    },
+
+    "headerNav": [
+        { "name": "介面與流程", "link": "http://www.ichefpos.com/zh-tw/interface-flow", "type": "index" },
+        { "name": "報表與管理", "link": "http://www.ichefpos.com/zh-tw/analytics-management", "type": "index" },
+        { "name": "系統與彈性", "link": "http://www.ichefpos.com/zh-tw/system-flexibility", "type": "index" },
+        { "name": "使用案例", "link": "http://www.ichefpos.com/zh-tw/user-case", "type": "index" },
+        { "name": "價格", "link": "http://www.ichefpos.com/zh-tw/pricing", "type": "index" },
+        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+    ],
+
+    "footerNav": [
+        { "name": "洽詢與購買", "link": "http://www.ichefpos.com/zh-tw/contact-ichef", "type": "page" },
+        { "name": "關於資廚", "links": [
+            { "name": "關於資廚", "link": "http://www.ichefpos.com/zh-tw/about-ichef" },
+            { "name": "媒體報導", "link": "http://www.ichefpos.com/zh-tw/media-report" },
+            { "name": "誠徵夥伴", "link": "http://www.ichefpos.com/zh-tw/join-us" },
+            { "name": "企業方案", "link": "http://www.ichefpos.com/zh-tw/enterprise-program" }
+        ], "type": "folders" },
+        { "name": "得獎設計", "links": [
+            { "name": "老闆心聲", "link": "http://www.ichefpos.com/zh-tw/ichef-story" },
+            { "name": "設計理念", "link": "http://www.ichefpos.com/zh-tw/design-concept" },
+            { "name": "得獎設計", "link": "http://www.ichefpos.com/zh-tw/design-award" },
+            { "name": "系統規格", "link": "http://www.ichefpos.com/zh-tw/specification" }
+        ], "type": "folders" },
+        { "name": "電子發票", "link": "http://www.ichefpos.com/zh-tw/e-invoice", "type": "index" },
+        { "name": "中信支付", "links": [
+            { "name": "行動刷卡", "link": "http://www.ichefpos.com/zh-tw/ctbc-mpos" },
+            { "name": "手機支付", "link": "http://www.ichefpos.com/zh-tw/ctbc-mobile-pay" }
+        ], "type": "folders" },
+        { "name": "iCHEF Club", "link": "http://www.ichefpos.com/zh-tw/ichef-club", "type": "page" },
+        { "name": "服務支援", "link": "http://www.ichefpos.com/zh-tw/service-support", "type": "index" },
+        { "name": "Q&A", "link": "http://www.ichefpos.com/zh-tw/qna", "type": "page" }
+    ],
+
+    "companyInfo": [
+        "資廚管理顧問股份有限公司 iCHEF CO., LTD.",
+        "<a href='https://goo.gl/maps/z1jLSQ5LZoG2'>台北市信義區松山路 132 號 3 樓<br/>3F., No. 132, Songshan Rd., Xinyi Dist., Taipei City 11090, Taiwan</a>",
+        "免費客服專線<br/><a href='tel:0800889055'>TEL: 0800-889-055</a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/icheftw",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:service@ichef.com.tw"
+    },
+
+    "currentLocale": {
+        "name": "台灣中文",
+        "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-TNFN22",
+        "pixel": "1022392204518447",
+        "zendesk": "3pTOzVCCRyRDDgXoq5FByXel7ftIw8PQ"
+    }
+}

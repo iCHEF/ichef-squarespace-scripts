@@ -1,0 +1,54 @@
+{
+    "headerLogo": {
+        "image": "https://icheftw.squarespace.com/s/iCHEF-HK-logo-white.png",
+        "link": "http://www.ichefpos.com/zh-hk"
+    },
+
+    "headerNav": [
+        { "name": "介面與流程", "link": "http://www.ichefpos.com/zh-hk/interface-flow", "type": "index" },
+        { "name": "報表與管理", "link": "http://www.ichefpos.com/zh-hk/analytics-management", "type": "index" },
+        { "name": "系統與彈性", "link": "http://www.ichefpos.com/zh-hk/system-flexibility", "type": "index" },
+        { "name": "價格", "link": "http://www.ichefpos.com/zh-hk/pricing", "type": "index" },
+        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+    ],
+
+    "footerNav": [
+        { "name": "洽詢與購買", "link": "http://www.ichefpos.com/zh-hk/contact-ichef", "type": "page" },
+        { "name": "關於資廚", "links": [
+            { "name": "關於資廚", "link": "http://www.ichefpos.com/zh-hk/about-ichef" },
+            { "name": "媒體報導", "link": "http://www.ichefpos.com/zh-hk/media-report" }
+        ], "type": "folders" },
+        { "name": "得獎設計", "links": [
+            { "name": "老闆心聲", "link": "http://www.ichefpos.com/zh-hk/ichef-story" },
+            { "name": "設計理念", "link": "http://www.ichefpos.com/zh-hk/design-concept" },
+            { "name": "得獎設計", "link": "http://www.ichefpos.com/zh-hk/design-award" },
+            { "name": "系統規格", "link": "http://www.ichefpos.com/zh-hk/specification" }
+        ], "type": "folders" },
+        { "name": "服務支援", "link": "http://www.ichefpos.com/zh-hk/service-support", "type": "index" },
+        { "name": "Q&A", "link": "http://www.ichefpos.com/zh-hk/qna", "type": "page" },
+        { "name": "限時優惠", "link": "http://www.ichefpos.com/zh-hk/bundle-price", "type": "page" }
+    ],
+
+    "companyInfo": [
+      "資廚(香港)管理顧問股份有限公司<br/>iCHEF (Hong Kong) CO., LIMITED",
+      "<a href='https://goo.gl/maps/PL1jDk5NATy'>香港九龍觀塘興業街 16-18 號，美興工業大廈 A 座 9 樓 9 室<br/>Room 9, 9/F block A, Mai Hing Industrial Building, 16-18, Hing Yip Street, Kwun Tong, Kowloon, Hong Kong</a>",
+      "免費客服專線<br/><a href='tel:28166615'>TEL: 2816-6615</a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichefhk/",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:service@ichef.com.hk"
+    },
+
+    "currentLocale": {
+        "name": "香港中文",
+        "image": "https://icheftw.squarespace.com/s/flag-hongkong.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-MHPGF8",
+        "pixel": "1022392204518447",
+        "zendesk": "3vGyihYdZy89abjy9ihrp3ZwW3inq6yv"
+    }
+}
