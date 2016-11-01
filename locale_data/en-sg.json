@@ -5,45 +5,48 @@
     },
 
     "headerNav": [
-        { "name": "", "link": "", "type": "index" },
+        { "name": "Interface & Flow", "link": "https://www.ichefpos.com/en-sg/interface-flow/", "type": "index" },
+        { "name": "Analytics & Management", "link": "https://www.ichefpos.com/en-sg/analytics-management/", "type": "index" },
+        { "name": "System & Flexibility", "link": "https://www.ichefpos.com/en-sg/system-flexibility/", "type": "index" },
+        { "name": "User Case", "link": "https://www.ichefpos.com/en-sg/user-case/", "type": "index" },
+        { "name": "Pricing", "link": "https://www.ichefpos.com/en-sg/pricing/", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
-        {
-            "name": "",
-            "link": "",
-            "type": "page"
-        },
-        { 
-            "name": "", 
+        { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-sg/contact-ichef", "type": "page"},
+        { "name": "About iCHEF", 
+          "links": [
+                { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-sg/about-ichef" },
+                { "name": "Media Report", "link": "http://www.ichefpos.com/en-sg/media-report" }
+          ], "type": "folders" }
+        { "name": "iCHEF Design", 
             "links": [
-                { "name": "", "link": "" }
-            ],
-            "type": "folders" 
-        }
+                { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-sg/ichef-story" },
+                { "name": "Design Concept", "link": "http://www.ichefpos.com/en-sg/design-concept" },
+                { "name": "Design Award", "link": "http://www.ichefpos.com/en-sg/design-award" },
+                { "name": "Spec", "link": "http://www.ichefpos.com/en-sg/specification" }
+          ], "type": "folders" }
     ],
 
     "companyInfo": [
-      "COMPANY_NAME",
-      "COMPANY_ADDRESS",
-      "COMPANY_PHONE_NUMBER"
+      "iCHEF SG PTE LTD",
+      "<a href='https://goo.gl/maps/PL1jDk5NATy'> 261 Waterloo Street #03-32 S(180261) </a>",
+      "<a href='tel:90068495'> 9006-8495 </a>"
     ],
 
     "socialLinks": {
-        "facebook": "https://www.facebook.com/ichefhk/",
+        "facebook": "https://www.facebook.com/ichefsg",
         "youtube": "https://www.youtube.com/user/iCHEFPoS",
-        "email": "mailto:service@ichef.com.hk"
+        "email": "mailto:jay@ichefpos.sg"
     },
 
     "currentLocale": {
-        "name": "",
-        "image": ""
+        "name": "Singapore English",
+        "image": "https://icheftw.squarespace.com/s/flag-singapore.png"
     },
 
     "seo": {
-        "gtm": "",
-        "pixel": "",
-        "zendesk": ""
+        "gtm": "GTM-NDVCL8",
     }
 }
