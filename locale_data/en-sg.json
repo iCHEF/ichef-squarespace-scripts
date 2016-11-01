@@ -15,18 +15,16 @@
 
     "footerNav": [
         { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-sg/contact-ichef", "type": "page"},
-        { "name": "About iCHEF", 
-          "links": [
+        { "name": "About iCHEF", "links": [
                 { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-sg/about-ichef" },
                 { "name": "Media Report", "link": "http://www.ichefpos.com/en-sg/media-report" }
-          ], "type": "folders" },
-        { "name": "iCHEF Design", 
-            "links": [
+        ], "type": "folders" },
+        { "name": "iCHEF Design", "links": [
                 { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-sg/ichef-story" },
                 { "name": "Design Concept", "link": "http://www.ichefpos.com/en-sg/design-concept" },
                 { "name": "Design Award", "link": "http://www.ichefpos.com/en-sg/design-award" },
                 { "name": "Spec", "link": "http://www.ichefpos.com/en-sg/specification" }
-          ], "type": "folders" }
+        ], "type": "folders" }
     ],
 
     "companyInfo": [
