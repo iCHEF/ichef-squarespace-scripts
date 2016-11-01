@@ -21,7 +21,10 @@
       "11090 台北市信義區松山路132號3樓<br>3F., No. 132, Songshan Rd., Xinyi Dist., Taipei City 11090, Taiwan",
       "免費客服專線<br><a href='tel:0800889055'>0800-889-055</a>"
     ], 
-
+ "currentLocale": {
+        "name": "台灣中文",
+        "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+    },
     "seo": {
         "gtm": ""
     }
