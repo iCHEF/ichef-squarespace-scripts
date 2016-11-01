@@ -1,0 +1,14 @@
+{
+    "DEFAULT_LOCALE": "en-us",
+    "ALL_LOCALES": [
+        "zh-tw",
+        "zh-hk",
+        "en-us",
+        "en-my",
+        "en-sg",
+        "en-ph",
+        "ja-jp",
+        "th-th",
+        "event"
+    ]
+}

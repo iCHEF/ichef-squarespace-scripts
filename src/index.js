@@ -18,8 +18,13 @@ import {
     applyZendeskChat
 } from './seo';
 
+import localeRedirect from './locale_redirect';
+
 (async function ichefSquarespaceScripts() {
     try {
+        // Redirect to current locale site
+        localeRedirect();
+
         const {
             // Header contents
             headerLogo,
