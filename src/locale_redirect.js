@@ -30,17 +30,17 @@ function getLocaleCodeFromUrl(currentPathname) {
         return DEFAULT_LOCALE;
     }
 
+    // Do not redirect 'event' and 'language' path;
     // If DEFAULT_LOCALE, return must direct sign
-    if (localePath === DEFAULT_LOCALE) {
-        return MUST_REDIRECT;
+    switch (localePath) {
+        case 'event':
+        case 'language':
+            return null;
+        case DEFAULT_LOCALE:
+            return MUST_REDIRECT;
+        default:
+            return localePath;
     }
-
-    // If event page, return `event-XXX`
-    if (localePath === 'event') {
-        return null;
-    }
-
-    return localePath;
 }
 
 function changeUrlLocaleCode(urlLocaleCode, newLocaleCode) {
@@ -75,7 +75,7 @@ function changeUrlLocaleCode(urlLocaleCode, newLocaleCode) {
         newPathname = currentPathname.replace(re, `/${newLocaleCode}`);
     }
 
-    window.location.replace(newPathname);
+    window.location.replace(window.location.origin + newPathname);
 }
 
 // -------------------------------------

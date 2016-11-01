@@ -19,11 +19,15 @@ import {
 } from './seo';
 
 import localeRedirect from './locale_redirect';
+import replaceLocaleLinksList from './replace_locale_links_list';
 
 (async function ichefSquarespaceScripts() {
     try {
         // Redirect to current locale site
         localeRedirect();
+
+        // Replace locale links list
+        replaceLocaleLinksList();
 
         const {
             // Header contents
