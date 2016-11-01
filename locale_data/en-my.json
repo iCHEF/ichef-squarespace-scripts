@@ -5,11 +5,11 @@
     },
 
     "headerNav": [
-        { "name": "Interface & Flow", "link": "https://www.ichefpos.com/en-my/interface-flow/", "type": "index" },
-        { "name": "Analytics & Management", "link": "https://www.ichefpos.com/en-my/analytics-management/", "type": "index" },
-        { "name": "System & Flexibility", "link": "https://www.ichefpos.com/en-my/system-flexibility/", "type": "index" },
-        { "name": "User Case", "link": "https://www.ichefpos.com/en-my/user-case/", "type": "index" },
-        { "name": "Pricing", "link": "https://www.ichefpos.com/en-my/pricing/", "type": "index" },
+        { "name": "INTERFACE", "link": "https://www.ichefpos.com/en-my/interface-flow/", "type": "index" },
+        { "name": "ANALYTICS", "link": "https://www.ichefpos.com/en-my/analytics-management/", "type": "index" },
+        { "name": "SYSTEM", "link": "https://www.ichefpos.com/en-my/system-flexibility/", "type": "index" },
+        { "name": "USERCASE", "link": "https://www.ichefpos.com/en-my/user-case/", "type": "index" },
+        { "name": "PRICING", "link": "https://www.ichefpos.com/en-my/pricing/", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
