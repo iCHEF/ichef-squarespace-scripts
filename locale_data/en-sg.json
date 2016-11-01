@@ -19,7 +19,7 @@
           "links": [
                 { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-sg/about-ichef" },
                 { "name": "Media Report", "link": "http://www.ichefpos.com/en-sg/media-report" }
-          ], "type": "folders" }
+          ], "type": "folders" },
         { "name": "iCHEF Design", 
             "links": [
                 { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-sg/ichef-story" },
