@@ -10,15 +10,23 @@
     ],
 
     "footerNav": [
-        { "name": "", "link": "", "type": "page" },
-        { "name": "", "links": [
-            { "name": "", "link": "" }
-        ], "type": "folders" }
+        {
+            "name": "",
+            "link": "",
+            "type": "page"
+        },
+        { 
+            "name": "", 
+            "links": [
+                { "name": "", "link": "" }
+            ],
+            "type": "folders" 
+        }
     ],
 
     "companyInfo": [
       "COMPANY_NAME",
-      "COMPANY_ADDRESS"
+      "COMPANY_ADDRESS",
       "COMPANY_PHONE_NUMBER"
     ],
 
@@ -39,4 +47,3 @@
         "zendesk": ""
     }
 }
-Contact GitHub API Training Shop Blog About
