@@ -1,0 +1,50 @@
+{
+    "headerLogo": {
+        "image": "https://icheftw.squarespace.com/s/iCHEF-HK-logo-white.png",
+        "link": "http://www.ichefpos.com/en-my"
+    },
+
+    "headerNav": [
+        { "name": "Interface & Flow", "link": "https://www.ichefpos.com/en-my/interface-flow/", "type": "index" },
+        { "name": "Analytics & Management", "link": "https://www.ichefpos.com/en-my/analytics-management/", "type": "index" },
+        { "name": "System & Flexibility", "link": "https://www.ichefpos.com/en-my/system-flexibility/", "type": "index" },
+        { "name": "User Case", "link": "https://www.ichefpos.com/en-my/user-case/", "type": "index" },
+        { "name": "Pricing", "link": "https://www.ichefpos.com/en-my/pricing/", "type": "index" },
+        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+    ],
+
+    "footerNav": [
+        { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-my/contact-ichef", "type": "page"},
+        { "name": "About iCHEF", "links": [
+                { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-my/about-ichef" },
+                { "name": "Media Report", "link": "http://www.ichefpos.com/en-my/media-report" }
+        ], "type": "folders" },
+        { "name": "iCHEF Design", "links": [
+                { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-my/ichef-story" },
+                { "name": "Design Concept", "link": "http://www.ichefpos.com/en-my/design-concept" },
+                { "name": "Design Award", "link": "http://www.ichefpos.com/en-my/design-award" },
+                { "name": "Spec", "link": "http://www.ichefpos.com/en-my/specification" }
+        ], "type": "folders" }
+    ],
+
+    "companyInfo": [
+      "CHEF TECHNOLOGY SDN. BHD.",
+      "<a href='https://goo.gl/maps/MuR3ygQ9RcM2'> Level 3 & 4, Wisma Suria, Jalan Teknokrat 6, Cyber 5, 63000 Cyberjaya, Selangor, Malaysia </a>",
+      "Hotline<br/><a href='tel:0104078628'> 010-4078628 </a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichefmalaysia",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:support@chef-technology.com"
+    },
+
+    "currentLocale": {
+        "name": "Malaysia English",
+        "image": "https://icheftw.squarespace.com/s/flag-malaysia.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-KTF5G2"
+    }
+}
