@@ -1,5 +1,4 @@
-import $ from 'jquery';
-
+import $ from './jquery';
 import { setLocaleCookie } from './locale_redirect';
 import { DEFAULT_LOCALE } from './all_locale_code.json';
 

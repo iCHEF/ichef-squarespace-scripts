@@ -1,5 +1,4 @@
-import $ from 'jquery';
-
+import $ from './jquery';
 import NewNavBody from './NewNavBody';
 
 // -------------------------------------

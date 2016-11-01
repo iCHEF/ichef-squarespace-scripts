@@ -1,4 +1,4 @@
-import { ajax } from 'jquery';
+import { ajax } from './jquery';
 import { ALL_LOCALES, DEFAULT_LOCALE } from './all_locale_code.json';
 
 const LOCALE_JSON_HOST = '//ichef.github.io/ichef-squarespace-scripts/locale_data';
