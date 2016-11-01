@@ -5,8 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "nwb serve-web-app",
+    "prebuild": "npm run eslint",
     "build": "nwb build-web-module",
-    "clean": "nwb clean-module"
+    "clean": "nwb clean-module",
+    "eslint": "eslint ./src"
   },
   "repository": "iCHEF/ichef-squarespace-scripts",
   "license": "UNLICENSED",
