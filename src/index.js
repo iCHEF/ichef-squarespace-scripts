@@ -18,16 +18,12 @@ import {
     applyZendeskChat
 } from './seo';
 
-import localeRedirect from './locale_redirect';
-import replaceLocaleLinksList from './replace_locale_links_list';
+import homeLocaleRedirect from './home_locale_redirect';
 
 (async function ichefSquarespaceScripts() {
     try {
-        // Redirect to current locale site
-        localeRedirect();
-
-        // Replace locale links list
-        replaceLocaleLinksList();
+        // Home page redirect
+        homeLocaleRedirect();
 
         const {
             // Header contents
