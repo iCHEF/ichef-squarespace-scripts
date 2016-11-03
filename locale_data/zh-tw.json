@@ -32,7 +32,7 @@
             { "name": "行動刷卡", "link": "http://www.ichefpos.com/zh-tw/ctbc-mpos" },
             { "name": "手機支付", "link": "http://www.ichefpos.com/zh-tw/ctbc-mobile-pay" }
         ], "type": "folders" },
-        { "name": "iCHEF Club", "link": "http://www.ichefpos.com/zh-tw/ichef-club", "type": "page" },
+        { "name": "iCHEF Club", "link": "http://www.ichefpos.com/zh-tw/ichefclubtw", "type": "page" },
         { "name": "服務支援", "link": "http://www.ichefpos.com/zh-tw/service-support", "type": "index" },
         { "name": "Q&A", "link": "http://www.ichefpos.com/zh-tw/qna", "type": "page" }
     ],
