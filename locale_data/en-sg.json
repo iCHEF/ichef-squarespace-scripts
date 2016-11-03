@@ -6,7 +6,7 @@
 
     "headerNav": [
         { "name": "INTERFACE", "link": "https://www.ichefpos.com/en-sg/interface-flow", "type": "index" },
-        { "name": "PRICING", "link": "https://www.ichefpos.com/en-sg/easytodomore-chi", "type": "index" },
+        { "name": "中文首页", "link": "https://www.ichefpos.com/en-sg/easytodomore-chi", "type": "index" },
         { "name": "ANALYTICS", "link": "https://www.ichefpos.com/en-sg/analytics-management", "type": "index" },
         { "name": "SYSTEM", "link": "https://www.ichefpos.com/en-sg/system-flexibility", "type": "index" },
         { "name": "USERCASE", "link": "https://www.ichefpos.com/en-sg/user-case", "type": "index" },
