@@ -23,19 +23,19 @@ function isSupportedLocale(localeCode) {
 }
 
 // -------------------------------------
-//   Record last visited time
+//   Record first visited time
 // -------------------------------------
 
-function setLastTimeVisited(currentTime) {
+function setFirstTimeVisited(currentTime) {
     if (document.cookie) {
-        cookies.set('lastTimeVisted', currentTime, {
+        cookies.set('firstTimeVisited', currentTime, {
             expires: 365
         });
     }
 }
 
-function getLastTimeVisited() {
-    return cookies.get('lastTimeVisted');
+function getFirstTimeVisited() {
+    return cookies.get('firstTimeVisited');
 }
 
 // -------------------------------------
@@ -51,11 +51,11 @@ function homeLocaleRedirect() {
     const browserLocaleCode = getBrowserLocale();
     const isSupportedLocaleCode = isSupportedLocale(browserLocaleCode);
     // Check cookies
-    const isVisitedBefore = !!getLastTimeVisited();
+    const isVisitedBefore = !!getFirstTimeVisited();
 
     if (isRootPath && isSupportedLocaleCode && !isVisitedBefore) {
         // Set cookie
-        setLastTimeVisited(new Date().getTime());
+        setFirstTimeVisited(new Date().getTime());
 
         // Do not redirect if located in DEFAULT_LOCALE
         if (browserLocaleCode !== DEFAULT_LOCALE) {
