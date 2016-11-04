@@ -1,27 +1,35 @@
 import { ajax } from './jquery';
-import { ALL_LOCALES, DEFAULT_LOCALE } from './all_locale_code.json';
 
-const LOCALE_JSON_HOST = '//ichef.github.io/ichef-squarespace-scripts/locale_data';
+import {
+    ALL_LOCALES,
+    DEFAULT_LOCALE,
+    LOCALE_HOST
+} from './all_locale_code.json';
 
 // -------------------------------------
-//   Get localization code from URL
+//   Get locale's JSON name
 // -------------------------------------
 
-function getLocaleCode(currentPathname) {
+function getLocaleJsonName(currentPathname) {
     const pathnameArray = currentPathname.split(/[\/\/]/);
     const localePath = pathnameArray[1];
 
-    // Validate is correct locale code
+    // If not valid locale path, use default
     if (ALL_LOCALES.indexOf(localePath) < 0) {
-        return null;
+        return `${DEFAULT_LOCALE}/website`;
     }
 
-    // If event page, return `event-XXX`
+    // If event site
     if (localePath === 'event') {
         return `event/${pathnameArray[2]}`;
     }
 
-    return localePath;
+    // If blog site
+    if (pathnameArray[2] === 'blog') {
+        return `${localePath}/blog`;
+    }
+
+    return `${localePath}/website`;
 }
 
 // -------------------------------------
@@ -29,9 +37,9 @@ function getLocaleCode(currentPathname) {
 // -------------------------------------
 
 function getLocaleData() {
-    const localeCode = getLocaleCode(window.location.pathname) || DEFAULT_LOCALE;
+    const localeJsonName = getLocaleJsonName(window.location.pathname);
 
-    return ajax(`${LOCALE_JSON_HOST}/${localeCode}.json`);
+    return ajax(`${LOCALE_HOST}/${localeJsonName}.json`);
 }
 
 export default getLocaleData;

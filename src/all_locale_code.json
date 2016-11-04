@@ -1,4 +1,5 @@
 {
+    "LOCALE_HOST": "//ichef.github.io/ichef-squarespace-scripts/locale_data",
     "DEFAULT_LOCALE": "en-us",
     "ALL_LOCALES": [
         "zh-tw",
