@@ -1,17 +1,14 @@
 {
     "headerLogo": {
-        "image": "https://icheftw.squarespace.com/s/iCHEFClubTW-index-Logo-white.png",
+        "image": "/s/iCHEFClubTW-index-Logo-white.png",
         "link": "/zh-tw/blog/home"
     },
 
     "headerNav": [
-        { "name": "介面與流程", "link": "/zh-tw/interface-flow", "type": "index" },
-        { "name": "報表與管理", "link": "/zh-tw/analytics-management", "type": "index" },
-        { "name": "系統與彈性", "link": "/zh-tw/system-flexibility", "type": "index" },
-        { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
-        { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
-        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" },
-        { "name": "English >", "link": "/language", "type": "page" }
+        { "name": "關於就愛開餐廳", "link": "/zh-tw/interface-flow", "type": "index" },
+        { "name": "iCHEF餐飲POS", "link": "/zh-tw/analytics-management", "type": "index" },
+        { "name": "餐飲社群活動", "link": "/zh-tw/user-case", "type": "index" },
+        { "name": "報名活動", "link": "/zh-tw/pricing", "type": "index" },
     ],
 
     "footerNav": [
@@ -52,11 +49,10 @@
 
     "currentLocale": {
         "name": "台灣中文",
-        "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+        "image": "/s/flag-taiwan.png"
     },
 
     "seo": {
-        "gtm": "GTM-TNFN22",
-        "zendesk": "3pTOzVCCRyRDDgXoq5FByXel7ftIw8PQ"
+        "gtm": "GTM-5FR5GS",
     }
 }
