@@ -1,11 +1,11 @@
 {
     "headerLogo": {
         "image": "/s/iCHEFClubSG-index-Logo-white2.png",
-        "link": "/en-sg/blog/index"
+        "link": "/en-sg/blog/home"
     },
 
     "headerNav": [
-        { "name": "ABOUT", "link": "/en-sg/blog/index", "type": "index" },
+        { "name": "ABOUT", "link": "/en-sg/blog/home", "type": "index" },
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "index" },
         { "name": "BOOTCAMP", "link": "/en-sg/blog/bootcamp", "type": "index" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "index" }
