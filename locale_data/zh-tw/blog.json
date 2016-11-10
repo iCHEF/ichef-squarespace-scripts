@@ -5,9 +5,10 @@
     },
 
     "headerNav": [
-        { "name": "關於就愛開餐廳", "link": "/zh-tw/blog/about", "type": "index" },
-        { "name": "餐飲社群活動", "link": "/zh-tw/user-case", "type": "index" },
-        { "name": "報名活動", "link": "/zh-tw/pricing", "type": "index" }
+        { "name": "關於就愛開餐廳", "link": "/zh-tw/blog/home", "type": "index" },
+        { "name": "餐飲社群活動", "link": "/zh-tw/blog/event", "type": "index" },
+        { "name": "報名活動", "link": "/zh-tw/blog/regist", "type": "index" },
+        { "name": "開餐廳懶人包", "link": "/zh-tw/blog/lazy-pack", "type": "index" }
     ],
 
     "footerNav": [
