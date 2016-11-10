@@ -1,29 +1,19 @@
 {
     "headerLogo": {
-        "image": "/s/iCHEFClubSG-index-Logo-white.png",
+        "image": "/s/iCHEFClubSG-index-Logo-white2.png",
         "link": "/en-sg/blog/index"
     },
 
     "headerNav": [
         { "name": "ABOUT", "link": "/en-sg/blog/index", "type": "index" },
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "index" },
-        { "name": "F&B ENTREPRENEUR BOOTCAMP", "link": "/en-sg/blog/bootcamp", "type": "index" },
+        { "name": "BOOTCAMP", "link": "/en-sg/blog/bootcamp", "type": "index" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "index" }
     ],
 
     "footerNav": [
-        { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-sg/contact-ichef", "type": "page"},
-        { "name": "About iCHEF", "links": [
-                { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-sg/about-ichef" },
-                { "name": "Media Report", "link": "http://www.ichefpos.com/en-sg/media-report" }
-        ], "type": "folders" },
-        { "name": "iCHEF Design", "links": [
-                { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-sg/ichef-story" },
-                { "name": "Design Concept", "link": "http://www.ichefpos.com/en-sg/design-concept" },
-                { "name": "Design Award", "link": "http://www.ichefpos.com/en-sg/design-award" },
-                { "name": "Spec", "link": "http://www.ichefpos.com/en-sg/specification" }
-        ], "type": "folders" },
-        { "name": "iCHEF Club SG", "link": "http://www.ichefpos.com/en-sg/ichefclubsg", "type": "page"}
+        { "name": "iCHEF F&B POS", "link": "/en-sg", "type": "page"},
+        { "name": "About iCHEF SG", "link": "/en-sg/about-ichef", "type": "page"}
     ],
 
     "companyInfo": [
@@ -44,6 +34,6 @@
     },
 
     "seo": {
-        "gtm": "GTM-KBGHM2"
+        "gtm": "GTM-NDVCL8"
     }
 }
