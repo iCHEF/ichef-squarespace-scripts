@@ -6,6 +6,7 @@
 
     "headerNav": [
         { "name": "關於就愛開餐廳", "link": "/zh-tw/blog/home", "type": "index" },
+        { "name": "餐廳文章列表", "link": "/zh-tw/blog/category", "type": "index" },
         { "name": "餐飲社群活動", "link": "/zh-tw/blog/event", "type": "index" },
         { "name": "報名活動", "link": "/zh-tw/blog/register", "type": "index" },
         { "name": "開餐廳懶人包", "link": "/zh-tw/blog/subscribe", "type": "index" }
