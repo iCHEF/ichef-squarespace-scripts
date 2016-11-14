@@ -6,5 +6,10 @@ module.exports = {
             global: 'ichefWebsite',
             externals: {}
         }
+    },
+    webpack: {
+        html: {
+            template: './src/index.html'
+        }
     }
 };
