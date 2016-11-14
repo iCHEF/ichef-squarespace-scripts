@@ -12,5 +12,15 @@
         "th-th",
         "event",
         "language"
-    ]
+    ],
+    "COUNTRY_LOCALES": {
+        "tw": "zh-tw",
+        "hk": "zh-hk",
+        "us": "en-us",
+        "my": "en-my",
+        "sg": "en-sg",
+        "ph": "en-ph",
+        "jp": "ja-jp",
+        "th": "th-th"
+    }
 }

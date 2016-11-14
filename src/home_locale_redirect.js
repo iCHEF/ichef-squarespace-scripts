@@ -1,18 +1,11 @@
 import cookies from 'js-cookie';
+import getUserLocale from './get_user_locale';
 
 import { ALL_LOCALES, DEFAULT_LOCALE } from './all_locale_code.json';
 
 // -------------------------------------
-//   locale code
+//   Check supported locale
 // -------------------------------------
-
-function getBrowserLocale() {
-    if (!window.navigator) {
-        return null;
-    }
-
-    return window.navigator.language.toLocaleLowerCase();
-}
 
 function isSupportedLocale(localeCode) {
     if (ALL_LOCALES.indexOf(localeCode) < 0) {
@@ -41,15 +34,17 @@ function getFirstTimeVisited() {
 // -------------------------------------
 //   Home locale redirect
 //   (Only work when first-time vist and
-//   located in supported area)
+//   user located in supported area)
 // -------------------------------------
 
-function homeLocaleRedirect() {
+async function homeLocaleRedirect() {
     // Check pathname is root path
     const isRootPath = window.location.pathname === '/';
-    // Get browserLocaleCode
-    const browserLocaleCode = getBrowserLocale();
-    const isSupportedLocaleCode = isSupportedLocale(browserLocaleCode);
+
+    // Get user locale's code
+    const userLocale = await getUserLocale() || DEFAULT_LOCALE;
+    const isSupportedLocaleCode = isSupportedLocale(userLocale);
+
     // Check cookies
     const isVisitedBefore = !!getFirstTimeVisited();
 
@@ -57,9 +52,9 @@ function homeLocaleRedirect() {
         // Set cookie
         setFirstTimeVisited(new Date().getTime());
 
-        // Do not redirect if located in DEFAULT_LOCALE
-        if (browserLocaleCode !== DEFAULT_LOCALE) {
-            window.location.replace(`/${browserLocaleCode}`);
+        // Do not redirect if user located in DEFAULT_LOCALE
+        if (userLocale !== DEFAULT_LOCALE) {
+            window.location.replace(`/${userLocale}`);
         }
     }
 }
