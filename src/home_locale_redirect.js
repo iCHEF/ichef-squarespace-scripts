@@ -1,18 +1,11 @@
 import cookies from 'js-cookie';
+import getBrowserLanguage from './get_browser_language';
 
 import { ALL_LOCALES, DEFAULT_LOCALE } from './all_locale_code.json';
 
 // -------------------------------------
-//   locale code
+//   Check supported locale
 // -------------------------------------
-
-function getBrowserLocale() {
-    if (!window.navigator) {
-        return null;
-    }
-
-    return window.navigator.language.toLocaleLowerCase();
-}
 
 function isSupportedLocale(localeCode) {
     if (ALL_LOCALES.indexOf(localeCode) < 0) {
@@ -44,12 +37,14 @@ function getFirstTimeVisited() {
 //   located in supported area)
 // -------------------------------------
 
-function homeLocaleRedirect() {
+async function homeLocaleRedirect() {
     // Check pathname is root path
     const isRootPath = window.location.pathname === '/';
+
     // Get browserLocaleCode
-    const browserLocaleCode = getBrowserLocale();
+    const browserLocaleCode = await getBrowserLanguage();
     const isSupportedLocaleCode = isSupportedLocale(browserLocaleCode);
+
     // Check cookies
     const isVisitedBefore = !!getFirstTimeVisited();
 
