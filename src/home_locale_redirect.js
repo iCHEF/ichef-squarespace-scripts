@@ -1,5 +1,5 @@
 import cookies from 'js-cookie';
-import getBrowserLanguage from './get_browser_language';
+import getUserLocale from './get_user_locale';
 
 import { ALL_LOCALES, DEFAULT_LOCALE } from './all_locale_code.json';
 
@@ -34,16 +34,16 @@ function getFirstTimeVisited() {
 // -------------------------------------
 //   Home locale redirect
 //   (Only work when first-time vist and
-//   located in supported area)
+//   user located in supported area)
 // -------------------------------------
 
 async function homeLocaleRedirect() {
     // Check pathname is root path
     const isRootPath = window.location.pathname === '/';
 
-    // Get browserLocaleCode
-    const browserLocaleCode = await getBrowserLanguage();
-    const isSupportedLocaleCode = isSupportedLocale(browserLocaleCode);
+    // Get user locale's code
+    const userLocale = await getUserLocale() || DEFAULT_LOCALE;
+    const isSupportedLocaleCode = isSupportedLocale(userLocale);
 
     // Check cookies
     const isVisitedBefore = !!getFirstTimeVisited();
@@ -52,9 +52,9 @@ async function homeLocaleRedirect() {
         // Set cookie
         setFirstTimeVisited(new Date().getTime());
 
-        // Do not redirect if located in DEFAULT_LOCALE
-        if (browserLocaleCode !== DEFAULT_LOCALE) {
-            window.location.replace(`/${browserLocaleCode}`);
+        // Do not redirect if user located in DEFAULT_LOCALE
+        if (userLocale !== DEFAULT_LOCALE) {
+            window.location.replace(`/${userLocale}`);
         }
     }
 }
