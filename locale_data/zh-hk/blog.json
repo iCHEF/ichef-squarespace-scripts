@@ -5,8 +5,8 @@
     },
 
     "headerNav": [
-        { "name": "關於餐廳主俱樂部", "link": "/zh-hk/blog/home", "type": "index" },
-        { "name": "最新餐飲社群活動", "link": "/zh-hk/blog/event", "type": "index" },
+        { "name": "關於 iCHEF Club", "link": "/zh-hk/blog/home", "type": "index" },
+        { "name": "最新活動", "link": "/zh-hk/blog/event", "type": "index" },
         { "name": "訂閱餐廳經營指南", "link": "/zh-hk/blog/subscribe", "type": "index" }
     ],
 
