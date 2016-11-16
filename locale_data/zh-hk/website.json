@@ -1,32 +1,33 @@
 {
     "headerLogo": {
-        "image": "https://icheftw.squarespace.com/s/iCHEF-HK-logo-white.png",
-        "link": "http://www.ichefpos.com/zh-hk"
+        "image": "/s/iCHEF-HK-logo-white.png",
+        "link": "/zh-hk"
     },
 
     "headerNav": [
-        { "name": "介面與流程", "link": "http://www.ichefpos.com/zh-hk/interface-flow", "type": "index" },
-        { "name": "報表與管理", "link": "http://www.ichefpos.com/zh-hk/analytics-management", "type": "index" },
-        { "name": "系統與彈性", "link": "http://www.ichefpos.com/zh-hk/system-flexibility", "type": "index" },
-        { "name": "價格", "link": "http://www.ichefpos.com/zh-hk/pricing", "type": "index" },
+        { "name": "介面與流程", "link": "/zh-hk/interface-flow", "type": "index" },
+        { "name": "報表與管理", "link": "/zh-hk/analytics-management", "type": "index" },
+        { "name": "系統與彈性", "link": "/zh-hk/system-flexibility", "type": "index" },
+        { "name": "價格", "link": "/zh-hk/pricing", "type": "index" },
+        { "name": "BLOG", "link": "/zh-hk/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
-        { "name": "洽詢與購買", "link": "http://www.ichefpos.com/zh-hk/contact-ichef", "type": "page" },
+        { "name": "洽詢與購買", "link": "/zh-hk/contact-ichef", "type": "page" },
         { "name": "關於資廚", "links": [
-            { "name": "關於資廚", "link": "http://www.ichefpos.com/zh-hk/about-ichef" },
-            { "name": "媒體報導", "link": "http://www.ichefpos.com/zh-hk/media-report" }
+            { "name": "關於資廚", "link": "/zh-hk/about-ichef" },
+            { "name": "媒體報導", "link": "/zh-hk/media-report" }
         ], "type": "folders" },
         { "name": "得獎設計", "links": [
-            { "name": "老闆心聲", "link": "http://www.ichefpos.com/zh-hk/ichef-story" },
-            { "name": "設計理念", "link": "http://www.ichefpos.com/zh-hk/design-concept" },
-            { "name": "得獎設計", "link": "http://www.ichefpos.com/zh-hk/design-award" },
-            { "name": "系統規格", "link": "http://www.ichefpos.com/zh-hk/specification" }
+            { "name": "老闆心聲", "link": "/zh-hk/ichef-story" },
+            { "name": "設計理念", "link": "/zh-hk/design-concept" },
+            { "name": "得獎設計", "link": "/zh-hk/design-award" },
+            { "name": "系統規格", "link": "/zh-hk/specification" }
         ], "type": "folders" },
-        { "name": "服務支援", "link": "http://www.ichefpos.com/zh-hk/service-support", "type": "index" },
-        { "name": "Q&A", "link": "http://www.ichefpos.com/zh-hk/qna", "type": "page" },
-        { "name": "限時優惠", "link": "http://www.ichefpos.com/zh-hk/bundle-price", "type": "page" }
+        { "name": "服務支援", "link": "/zh-hk/service-support", "type": "index" },
+        { "name": "Q&A", "link": "/zh-hk/qna", "type": "page" },
+        { "name": "限時優惠", "link": "/zh-hk/bundle-price", "type": "page" }
     ],
 
     "companyInfo": [
@@ -43,7 +44,7 @@
 
     "currentLocale": {
         "name": "香港中文",
-        "image": "https://icheftw.squarespace.com/s/flag-hongkong.png"
+        "image": "/s/flag-hongkong.png"
     },
 
     "seo": {
