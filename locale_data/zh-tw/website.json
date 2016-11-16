@@ -1,40 +1,41 @@
 {
     "headerLogo": {
-        "image": "https://icheftw.squarespace.com/s/iCHEF-index-Logo-white.png",
-        "link": "http://www.ichefpos.com/zh-tw"
+        "image": "/s/iCHEF-index-Logo-white.png",
+        "link": "/zh-tw"
     },
 
     "headerNav": [
-        { "name": "介面與流程", "link": "http://www.ichefpos.com/zh-tw/interface-flow", "type": "index" },
-        { "name": "報表與管理", "link": "http://www.ichefpos.com/zh-tw/analytics-management", "type": "index" },
-        { "name": "系統與彈性", "link": "http://www.ichefpos.com/zh-tw/system-flexibility", "type": "index" },
-        { "name": "使用案例", "link": "http://www.ichefpos.com/zh-tw/user-case", "type": "index" },
-        { "name": "價格", "link": "http://www.ichefpos.com/zh-tw/pricing", "type": "index" },
+        { "name": "介面與流程", "link": "/zh-tw/interface-flow", "type": "index" },
+        { "name": "報表與管理", "link": "/zh-tw/analytics-management", "type": "index" },
+        { "name": "系統與彈性", "link": "/zh-tw/system-flexibility", "type": "index" },
+        { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
+        { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
+        { "name": "BLOG", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
-        { "name": "洽詢與購買", "link": "http://www.ichefpos.com/zh-tw/contact-ichef", "type": "page" },
+        { "name": "洽詢與購買", "link": "/zh-tw/contact-ichef", "type": "page" },
         { "name": "關於資廚", "links": [
-            { "name": "關於資廚", "link": "http://www.ichefpos.com/zh-tw/about-ichef" },
-            { "name": "媒體報導", "link": "http://www.ichefpos.com/zh-tw/media-report" },
-            { "name": "誠徵夥伴", "link": "http://www.ichefpos.com/zh-tw/join-us" },
-            { "name": "企業方案", "link": "http://www.ichefpos.com/zh-tw/enterprise-program" }
+            { "name": "關於資廚", "link": "/zh-tw/about-ichef" },
+            { "name": "媒體報導", "link": "/zh-tw/media-report" },
+            { "name": "誠徵夥伴", "link": "/zh-tw/join-us" },
+            { "name": "企業方案", "link": "/zh-tw/enterprise-program" }
         ], "type": "folders" },
         { "name": "得獎設計", "links": [
-            { "name": "老闆心聲", "link": "http://www.ichefpos.com/zh-tw/ichef-story" },
-            { "name": "設計理念", "link": "http://www.ichefpos.com/zh-tw/design-concept" },
-            { "name": "得獎設計", "link": "http://www.ichefpos.com/zh-tw/design-award" },
-            { "name": "系統規格", "link": "http://www.ichefpos.com/zh-tw/specification" }
+            { "name": "老闆心聲", "link": "/zh-tw/ichef-story" },
+            { "name": "設計理念", "link": "/zh-tw/design-concept" },
+            { "name": "得獎設計", "link": "/zh-tw/design-award" },
+            { "name": "系統規格", "link": "/zh-tw/specification" }
         ], "type": "folders" },
-        { "name": "電子發票", "link": "http://www.ichefpos.com/zh-tw/e-invoice", "type": "index" },
+        { "name": "電子發票", "link": "/zh-tw/e-invoice", "type": "index" },
         { "name": "中信支付", "links": [
-            { "name": "行動刷卡", "link": "http://www.ichefpos.com/zh-tw/ctbc-mpos" },
-            { "name": "手機支付", "link": "http://www.ichefpos.com/zh-tw/ctbc-mobile-pay" }
+            { "name": "行動刷卡", "link": "/zh-tw/ctbc-mpos" },
+            { "name": "手機支付", "link": "/zh-tw/ctbc-mobile-pay" }
         ], "type": "folders" },
-        { "name": "iCHEF Club", "link": "http://www.ichefpos.com/zh-tw/ichefclubtw", "type": "page" },
-        { "name": "服務支援", "link": "http://www.ichefpos.com/zh-tw/service-support", "type": "index" },
-        { "name": "Q&A", "link": "http://www.ichefpos.com/zh-tw/qna", "type": "page" }
+        { "name": "iCHEF Club", "link": "/zh-tw/ichefclubtw", "type": "page" },
+        { "name": "服務支援", "link": "/zh-tw/service-support", "type": "index" },
+        { "name": "Q&A", "link": "/zh-tw/qna", "type": "page" }
     ],
 
     "companyInfo": [
@@ -51,7 +52,7 @@
 
     "currentLocale": {
         "name": "台灣中文",
-        "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+        "image": "/s/flag-taiwan.png"
     },
 
     "seo": {
