@@ -32,3 +32,16 @@ export function updateHeaderNav(headerNav) {
     DesktopNav.html(newNavBody);
     MobileNav.html(newNavBody);
 }
+
+// -------------------------------------
+//   Show header container
+// -------------------------------------
+
+export function showHeaderContainer() {
+    const HeaderContainer = $('#header > *');
+
+    HeaderContainer.css({
+        opacity: 1,
+        transition: 'opacity 0.1s ease-out'
+    });
+}

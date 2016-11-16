@@ -2,7 +2,8 @@ import getlocaleData from './get_locale_data';
 
 import {
     updateHeaderLogo,
-    updateHeaderNav
+    updateHeaderNav,
+    showHeaderContainer
 } from './update_header';
 
 import {
@@ -41,6 +42,11 @@ import homeLocaleRedirect from './home_locale_redirect';
         // Update header contents
         if (headerLogo) updateHeaderLogo(headerLogo);
         if (headerNav) updateHeaderNav(headerNav);
+
+        // Show hidden header container
+        setTimeout(() => {
+            showHeaderContainer();
+        }, 100);
 
         // Update footer contents
         if (companyInfo) updateFooterCompanyInfo(companyInfo);
