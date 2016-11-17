@@ -1,32 +1,33 @@
 {
     "headerLogo": {
-        "image": "https://icheftw.squarespace.com/s/iCHEF-SG-logo-white.png",
+        "image": "/s/iCHEF-SG-logo-white.png",
         "link": "http://www.ichefpos.com/en-sg"
     },
 
     "headerNav": [
-        { "name": "INTERFACE", "link": "https://www.ichefpos.com/en-sg/interface-flow", "type": "index" },
-        { "name": "中文首页", "link": "https://www.ichefpos.com/en-sg/easytodomore-chi", "type": "index" },
-        { "name": "ANALYTICS", "link": "https://www.ichefpos.com/en-sg/analytics-management", "type": "index" },
-        { "name": "SYSTEM", "link": "https://www.ichefpos.com/en-sg/system-flexibility", "type": "index" },
-        { "name": "USERCASE", "link": "https://www.ichefpos.com/en-sg/user-case", "type": "index" },
-        { "name": "PRICING", "link": "https://www.ichefpos.com/en-sg/pricing", "type": "index" },
+        { "name": "INTERFACE", "link": "/en-sg/interface-flow", "type": "index" },
+        { "name": "中文首页", "link": "/en-sg/easytodomore-chi", "type": "index" },
+        { "name": "ANALYTICS", "link": "/en-sg/analytics-management", "type": "index" },
+        { "name": "SYSTEM", "link": "/en-sg/system-flexibility", "type": "index" },
+        { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
+        { "name": "PRICING", "link": "/en-sg/pricing", "type": "index" },
+        { "name": "BLOG", "link": "/en-sg/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
-        { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-sg/contact-ichef", "type": "page"},
+        { "name": "Contact iCHEF", "link": "/en-sg/contact-ichef", "type": "page"},
         { "name": "About iCHEF", "links": [
-                { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-sg/about-ichef" },
-                { "name": "Media Report", "link": "http://www.ichefpos.com/en-sg/media-report" }
+                { "name": "iCHEF Story", "link": "/en-sg/about-ichef" },
+                { "name": "Media Report", "link": "/en-sg/media-report" }
         ], "type": "folders" },
         { "name": "iCHEF Design", "links": [
-                { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-sg/ichef-story" },
-                { "name": "Design Concept", "link": "http://www.ichefpos.com/en-sg/design-concept" },
-                { "name": "Design Award", "link": "http://www.ichefpos.com/en-sg/design-award" },
-                { "name": "Spec", "link": "http://www.ichefpos.com/en-sg/specification" }
+                { "name": "About iCHEF", "link": "/en-sg/ichef-story" },
+                { "name": "Design Concept", "link": "/en-sg/design-concept" },
+                { "name": "Design Award", "link": "/en-sg/design-award" },
+                { "name": "Spec", "link": "/en-sg/specification" }
         ], "type": "folders" },
-        { "name": "iCHEF Club SG", "link": "http://www.ichefpos.com/en-sg/ichefclubsg", "type": "page"}
+        { "name": "iCHEF Club SG", "link": "/en-sg/ichef-club-sg", "type": "page"}
     ],
 
     "companyInfo": [
@@ -43,7 +44,7 @@
 
     "currentLocale": {
         "name": "Singapore English",
-        "image": "https://icheftw.squarespace.com/s/flag-singapore.png"
+        "image": "/s/flag-singapore.png"
     },
 
     "seo": {
