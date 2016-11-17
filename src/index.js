@@ -46,7 +46,7 @@ import homeLocaleRedirect from './home_locale_redirect';
         // Show hidden header container
         setTimeout(() => {
             showHeaderContainer();
-        }, 100);
+        });
 
         // Update footer contents
         if (companyInfo) updateFooterCompanyInfo(companyInfo);
