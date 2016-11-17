@@ -27,7 +27,7 @@
         ], "type": "folders" },
         { "name": "服務支援", "link": "/zh-hk/service-support", "type": "index" },
         { "name": "Q&A", "link": "/zh-hk/qna", "type": "page" },
-        { "name": "限時優惠", "link": "/zh-hk/bundle-price", "type": "page" }
+        { "name": "套裝優惠", "link": "/zh-hk/bundle-price", "type": "page" }
     ],
 
     "companyInfo": [
