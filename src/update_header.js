@@ -38,10 +38,10 @@ export function updateHeaderNav(headerNav) {
 // -------------------------------------
 
 export function showHeaderContainer() {
-    const HeaderContainer = $('#header > *');
+    const HeaderContainer = $('#header');
 
     HeaderContainer.css({
         opacity: 1,
-        transition: 'opacity 0.1s ease-out'
+        transitionProperty: 'opacity background-color'
     });
 }
