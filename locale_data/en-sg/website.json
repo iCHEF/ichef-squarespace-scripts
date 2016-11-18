@@ -27,7 +27,7 @@
                 { "name": "Design Award", "link": "/en-sg/design-award" },
                 { "name": "Spec", "link": "/en-sg/specification" }
         ], "type": "folders" },
-        { "name": "iCHEF Club SG", "link": "/en-sg/ichef-club-sg", "type": "page"}
+        { "name": "iCHEF Club SG", "link": "/en-sg/ichef-club", "type": "page"}
     ],
 
     "companyInfo": [
