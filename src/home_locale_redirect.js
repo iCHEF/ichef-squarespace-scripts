@@ -38,23 +38,22 @@ function getFirstTimeVisited() {
 // -------------------------------------
 
 async function homeLocaleRedirect() {
-    // Check pathname is root path
+    // Check cookies & root path
+    const isVisitedBefore = !!getFirstTimeVisited();
     const isRootPath = window.location.pathname === '/';
 
-    // Get user locale's code
-    const userLocale = await getUserLocale() || DEFAULT_LOCALE;
-    const isSupportedLocaleCode = isSupportedLocale(userLocale);
+    if (!isVisitedBefore && isRootPath) {
+        // Get user locale's code
+        const userLocale = await getUserLocale() || DEFAULT_LOCALE;
 
-    // Check cookies
-    const isVisitedBefore = !!getFirstTimeVisited();
+        if (isSupportedLocale(userLocale)) {
+            // Set cookie
+            setFirstTimeVisited(new Date().getTime());
 
-    if (isRootPath && isSupportedLocaleCode && !isVisitedBefore) {
-        // Set cookie
-        setFirstTimeVisited(new Date().getTime());
-
-        // Do not redirect if user located in DEFAULT_LOCALE
-        if (userLocale !== DEFAULT_LOCALE) {
-            window.location.replace(`/${userLocale}`);
+            // Do not redirect if user located in DEFAULT_LOCALE
+            if (userLocale !== DEFAULT_LOCALE) {
+                window.location.replace(`/${userLocale}`);
+            }
         }
     }
 }
