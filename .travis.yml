@@ -6,19 +6,21 @@ node_js:
 - stable
 cache:
   directories:
-  - "$HOME/.yarn-cache"
+  - $HOME/.yarn-cache
 env:
   global:
   - GH_REF: github.com/iCHEF/ichef-squarespace-scripts
   - secure: Tc0G5cxVizJLZRg9IOrvtpDjtFzyIQmizmrHIwbKSmwZn1YpQuTbxG+lgRsYhr//+YES7rfzaNGIG2k2aQaD2HYV4HTE40i4ZcODM5Top9GFkm1+CVi15n8kFHOpoU2VwATJZS74qwujKYFk/vcQmWGERLTr72HHVl7N3OpHGIg9zfXR+zKpRSVn1cEetl1jAnMPoVBp3jJCVTbTtLQXpl/q36lY2cVFNPP+kXNE76pxWtZOlWifF7yEN5ayf1zG+l8RuOQSVsvE5bCcqq7cQ12/3b6RRz4uGlpVz0nZnuVuiD1Jt89r8+1Xy1AQsjs9/q8nllKhPv3RMFr9i4r0HZjba0L0eUFj6m80GSs7px7jQXqP4vpv1PNArMyD/FTwuYfUGKI22RF67zWhFmtJB4OtfvmgwHOB7FQhhouactzjMCpZDytB3FqXzrHhZ0wwaW3pIEl+ljM1lZay0/aExxc+mjGMN3zlOUP8I/1O0Kmg38ib73WADdzYO/UCQKQRr38nDcSblWLThtaCU9c6Lb0jLOvwdjOrzA6RsW4OUJY7VgnOnatT2G1++YTmfTFzwyhcr+nVb+tMmF841S1Qs+FqqDoI6WCQtZpmJkozbpzHO+tKemtq9/dJnjD7El9t62PLppN4i7XFfEneQPKmDhyW9GPhPC4g0dWmMOt5lh4=
 before_install:
-  # Repo for Yarn
-  - sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
-  - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-  - sudo apt-get update -qq
-  - sudo apt-get install -y -qq yarn
+- sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
+- echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+- sudo apt-get update -qq
+- sudo apt-get install -y -qq yarn
 install:
 - yarn
 script:
 - npm run build
 - bash deploy.sh
+notifications:
+  slack:
+    secure: egl6dXDnCUNSAHqRi0XWM5HtAjf80JGsGUz6TTI5fTp2A+Y5eGv6fZqMU7ER6STrO+pARrpBOq+5YQAYTJYOLscrOtGJ8BJPEte+FsT70O6MoG9xNUMamw7XzJcCqf0Nhgkeu0tu2p4H8dhQS4Glv89L6YximJqmfh/yaFxEPEYi0TiUTbEmpMYqIhkyb481xsgmziliCeAybjBbcz+aX8zl2ZXtKrLsgFUWkC/HqiFYCKjAWnheE0+pvKVmV9cunkH4Lm7Ng8KQ3dr60lOd9VFOs5wSL9fW4/IuajrFEbTOfiEOvLT4naHdui0Mm/t6+Bf0tGbjAD/iTXtYgf1MuBV+SiXPRWIZOVjygsig3oBo4PfOhfP9tcdJEYi5joh8lc9ZoVK3+lJS4BcCAqkix9CWTOVq77u4HCzXr37p4Hs8ek2Ysy99/g+4BrhECV3DrrzacXcZ7LQcebSV2hl40Pq2MgIyvGdLnRyYP4f1D83C+eLV7b1K6xHFVqwc5fhQenWVzwR4+RBwwMjGMdrhQVpZEXMNHprkDWlTkjy7WHZ5j8oyym5YSoHzhznIRKcCpCnQBQKQutQViuzueuQr27/MBlDLNB4n3jMXwuDXR7F4i3H3zqDqmlUw0IAt7ZwcWiGc2xiVc7BYQSiye5bM4oncVY61DE/3fgIpqSEf2B4=
