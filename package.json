@@ -20,7 +20,5 @@
     "eslint-plugin-import": "^2.0.1",
     "nwb": "^0.12.2"
   },
-  "dependencies": {
-    "js-cookie": "^2.1.3"
-  }
+  "dependencies": {}
 }
