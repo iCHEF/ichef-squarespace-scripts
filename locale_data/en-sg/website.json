@@ -11,7 +11,7 @@
         { "name": "SYSTEM", "link": "/en-sg/system-flexibility", "type": "index" },
         { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
         { "name": "PRICING", "link": "/en-sg/pricing", "type": "index" },
-        { "name": "BLOG", "link": "/en-sg/blog/home", "type": "index" },
+        { "name": "COMMUNITY", "link": "/en-sg/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
