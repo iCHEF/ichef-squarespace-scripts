@@ -10,7 +10,7 @@
         { "name": "系統與彈性", "link": "/zh-tw/system-flexibility", "type": "index" },
         { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
         { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
-        { "name": "BLOG", "link": "/zh-tw/blog/home", "type": "index" },
+        { "name": "俱樂部", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
