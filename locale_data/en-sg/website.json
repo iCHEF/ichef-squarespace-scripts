@@ -6,7 +6,6 @@
 
     "headerNav": [
         { "name": "INTERFACE", "link": "/en-sg/interface-flow", "type": "index" },
-        { "name": "中文首页", "link": "/en-sg/easytodomore-chi", "type": "index" },
         { "name": "ANALYTICS", "link": "/en-sg/analytics-management", "type": "index" },
         { "name": "SYSTEM", "link": "/en-sg/system-flexibility", "type": "index" },
         { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
