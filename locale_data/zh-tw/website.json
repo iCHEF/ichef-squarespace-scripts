@@ -5,12 +5,7 @@
     },
 
     "headerNav": [
-        { "name": "介面與流程", "links": [
-            { "name": "總覽", "link": "/zh-tw/interface-flow" },
-            { "name": "點餐註記", "link": "/zh-tw/interface-flow/detail#tw-tablecontrol" },
-            { "name": "結帳折扣", "link": "/zh-tw/interface-flow/detail#tw-ordersplited" },
-            { "name": "餐廳管理", "link": "/zh-tw/interface-flow/detail#tw-takeout" }
-        ], "type": "folders" },
+        { "name": "介面與流程", "link": "/zh-tw/interface-flow", "type": "index" },
         { "name": "報表與管理", "link": "/zh-tw/analytics-management", "type": "index" },
         { "name": "系統與彈性", "link": "/zh-tw/system-flexibility", "type": "index" },
         { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
