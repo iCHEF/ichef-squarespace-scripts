@@ -5,9 +5,9 @@
     },
 
     "headerNav": [
-        { "name": "介面與流程", "link": "/zh-tw/interface-flow", "type": "index" },
+        { "name": "系統與介面", "link": "/zh-tw/interface-flow", "type": "index" },
         { "name": "報表與管理", "link": "/zh-tw/analytics-management", "type": "index" },
-        { "name": "系統與彈性", "link": "/zh-tw/system-flexibility", "type": "index" },
+        { "name": "服務與保固", "link": "/zh-tw/service-support-community", "type": "index" },
         { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
         { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
         { "name": "俱樂部", "link": "/zh-tw/blog/home", "type": "index" },
@@ -34,7 +34,6 @@
             { "name": "手機支付", "link": "/zh-tw/ctbc-mobile-pay" }
         ], "type": "folders" },
         { "name": "iCHEF Club", "link": "/zh-tw/ichef-club", "type": "page" },
-        { "name": "服務支援", "link": "/zh-tw/service-support", "type": "index" },
         { "name": "Q&A", "link": "/zh-tw/qna", "type": "page" }
     ],
 
