@@ -1,12 +1,12 @@
 {
     "headerLogo": {
-        "image": "/s/diner-news-logo.png",
-        "link": "/zh-tw/blog/home"
+        "image": "/s/iCHEF-index-Logo-white.png",
+        "link": "/zh-tw"
     },
 
     "headerNav": [
-        { "name": "關於就愛開餐廳", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "餐廳文章列表", "link": "/zh-tw/blog/article", "type": "index" },
+        { "name": "關於就愛開餐廳", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "餐飲社群活動", "link": "/zh-tw/blog/event", "type": "index" },
         { "name": "報名活動", "link": "https://www.accupass.com/org/detail/r/1505280304551518748627/1/0", "type": "index" },
         { "name": "開餐廳懶人包", "link": "/zh-tw/blog/subscribe", "type": "index" }
