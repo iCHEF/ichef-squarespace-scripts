@@ -5,9 +5,9 @@
     },
 
     "headerNav": [
-        { "name": "介面與流程", "link": "/zh-hk/interface-flow", "type": "index" },
+        { "name": "系統與介面", "link": "/zh-hk/interface-flow", "type": "index" },
         { "name": "報表與管理", "link": "/zh-hk/analytics-management", "type": "index" },
-        { "name": "系統與彈性", "link": "/zh-hk/system-flexibility", "type": "index" },
+        { "name": "服務與保固", "link": "/zh-hk/service-support-community", "type": "index" },
         { "name": "價格", "link": "/zh-hk/pricing", "type": "index" },
         { "name": "COMMUNITY", "link": "/zh-hk/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
@@ -25,7 +25,6 @@
             { "name": "得獎設計", "link": "/zh-hk/design-award" },
             { "name": "系統規格", "link": "/zh-hk/specification" }
         ], "type": "folders" },
-        { "name": "服務支援", "link": "/zh-hk/service-support", "type": "index" },
         { "name": "Q&A", "link": "/zh-hk/qna", "type": "page" },
         { "name": "套裝優惠", "link": "/zh-hk/bundle-price", "type": "page" }
     ],
