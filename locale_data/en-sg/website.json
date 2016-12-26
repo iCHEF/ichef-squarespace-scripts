@@ -5,12 +5,11 @@
     },
 
     "headerNav": [
-        { "name": "INTERFACE", "link": "/en-sg/interface-flow", "type": "index" },
+        { "name": "SYSTEM", "link": "/en-sg/interface-flow", "type": "index" },
         { "name": "ANALYTICS", "link": "/en-sg/analytics-management", "type": "index" },
-        { "name": "SYSTEM", "link": "/en-sg/system-flexibility", "type": "index" },
+        { "name": "SERVICE", "link": "/en-sg/service-support-community", "type": "index" },
         { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
         { "name": "PRICING", "link": "/en-sg/pricing", "type": "index" },
-        { "name": "COMMUNITY", "link": "/en-sg/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
@@ -26,7 +25,7 @@
                 { "name": "Design Award", "link": "/en-sg/design-award" },
                 { "name": "Spec", "link": "/en-sg/specification" }
         ], "type": "folders" },
-        { "name": "iCHEF Club SG", "link": "/en-sg/ichef-club", "type": "page"}
+        { "name": "iCHEF Club SG", "link": "/en-sg/blog/home", "type": "page"}
     ],
 
     "companyInfo": [
