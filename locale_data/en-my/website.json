@@ -1,29 +1,29 @@
 {
     "headerLogo": {
-        "image": "https://icheftw.squarespace.com/s/iCHEF-MY-logo-white.png",
-        "link": "http://www.ichefpos.com/en-my"
+        "image": "/s/iCHEF-MY-logo-white.png",
+        "link": "/en-my"
     },
 
     "headerNav": [
-        { "name": "INTERFACE", "link": "https://www.ichefpos.com/en-my/interface-flow", "type": "index" },
-        { "name": "ANALYTICS", "link": "https://www.ichefpos.com/en-my/analytics-management", "type": "index" },
-        { "name": "SYSTEM", "link": "https://www.ichefpos.com/en-my/system-flexibility", "type": "index" },
-        { "name": "USERCASE", "link": "https://www.ichefpos.com/en-my/user-case", "type": "index" },
-        { "name": "PRICING", "link": "https://www.ichefpos.com/en-my/pricing", "type": "index" },
+        { "name": "SYSTEM", "link": "/en-my/interface-flow", "type": "index" },
+        { "name": "ANALYTICS", "link": "/en-my/analytics-management", "type": "index" },
+        { "name": "SERVICE", "link": "/en-my/service-support-community", "type": "index" },
+        { "name": "USERCASE", "link": "/en-my/user-case", "type": "index" },
+        { "name": "PRICING", "link": "/en-my/pricing", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
-        { "name": "Contact iCHEF", "link": "http://www.ichefpos.com/en-my/contact-ichef", "type": "page"},
+        { "name": "Contact iCHEF", "link": "/en-my/contact-ichef", "type": "page"},
         { "name": "About iCHEF", "links": [
-                { "name": "iCHEF Story", "link": "http://www.ichefpos.com/en-my/about-ichef" },
-                { "name": "Media Report", "link": "http://www.ichefpos.com/en-my/media-report" }
+                { "name": "iCHEF Story", "link": "/en-my/about-ichef" },
+                { "name": "Media Report", "link": "/en-my/media-report" }
         ], "type": "folders" },
         { "name": "iCHEF Design", "links": [
-                { "name": "About iCHEF", "link": "http://www.ichefpos.com/en-my/ichef-story" },
-                { "name": "Design Concept", "link": "http://www.ichefpos.com/en-my/design-concept" },
-                { "name": "Design Award", "link": "http://www.ichefpos.com/en-my/design-award" },
-                { "name": "Spec", "link": "http://www.ichefpos.com/en-my/specification" }
+                { "name": "About iCHEF", "link": "/en-my/ichef-story" },
+                { "name": "Design Concept", "link": "/en-my/design-concept" },
+                { "name": "Design Award", "link": "/en-my/design-award" },
+                { "name": "Spec", "link": "/en-my/specification" }
         ], "type": "folders" }
     ],
 
@@ -41,7 +41,7 @@
 
     "currentLocale": {
         "name": "Malaysia English",
-        "image": "https://icheftw.squarespace.com/s/flag-malaysia.png"
+        "image": "/s/flag-malaysia.png"
     },
 
     "seo": {
