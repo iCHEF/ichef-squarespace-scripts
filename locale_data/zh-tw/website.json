@@ -10,7 +10,6 @@
         { "name": "服務與保固", "link": "/zh-tw/service-support-community", "type": "index" },
         { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
         { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
-        { "name": "俱樂部", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
