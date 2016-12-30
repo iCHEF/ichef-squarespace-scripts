@@ -9,7 +9,7 @@
         { "name": "報表與管理", "link": "/zh-hk/analytics-management", "type": "index" },
         { "name": "服務與保固", "link": "/zh-hk/service-support-community", "type": "index" },
         { "name": "價格", "link": "/zh-hk/pricing", "type": "index" },
-        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+        { "name": "LOG IN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
