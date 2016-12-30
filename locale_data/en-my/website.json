@@ -10,7 +10,7 @@
         { "name": "SERVICE", "link": "/en-my/service-support-community", "type": "index" },
         { "name": "USERCASE", "link": "/en-my/user-case", "type": "index" },
         { "name": "PRICING", "link": "/en-my/pricing", "type": "index" },
-        { "name": "LOGIN", "link": "https://admin.ichef.tw", "type": "external" }
+        { "name": "LOG IN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
     "footerNav": [
