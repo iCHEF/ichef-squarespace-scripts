@@ -1,20 +1,18 @@
 {
     "headerLogo": {
-        "image": "/s/iCHEF-SG-logo-white.png",
-        "link": "/en-sg"
+        "image": "/s/iCHEFClubSG-index-Logo-white2.png",
+        "link": "/en-sg/blog/home"
     },
 
     "headerNav": [
         { "name": "ARTICLE", "link": "/en-sg/blog/article", "type": "page" },
-        { "name": "ABOUT", "link": "/en-sg/blog/home", "type": "page" },
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "page" },
         { "name": "BOOTCAMP", "link": "/en-sg/blog/bootcamp", "type": "page" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
     ],
 
     "footerNav": [
-        { "name": "iCHEF F&B POS", "link": "/en-sg", "type": "page"},
-        { "name": "About iCHEF SG", "link": "/en-sg/about-ichef", "type": "page"}
+        { "name": "iCHEF F&B POS", "link": "/en-sg", "type": "page"}
     ],
 
     "companyInfo": [
