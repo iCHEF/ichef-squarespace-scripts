@@ -33,8 +33,7 @@
             { "name": "行動刷卡", "link": "/zh-tw/ctbc-mpos" },
             { "name": "手機支付", "link": "/zh-tw/ctbc-mobile-pay" }
         ], "type": "folders" },
-        { "name": "iCHEF Club", "link": "/zh-tw/ichef-club", "type": "page" },
-        { "name": "Q&A", "link": "/zh-tw/qna", "type": "page" }
+        { "name": "iCHEF Club", "link": "/zh-tw/ichef-club", "type": "page" }
     ],
 
     "companyInfo": [
