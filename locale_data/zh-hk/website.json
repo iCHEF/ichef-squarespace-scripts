@@ -9,6 +9,7 @@
         { "name": "報表與管理", "link": "/zh-hk/analytics-management", "type": "index" },
         { "name": "服務與保固", "link": "/zh-hk/service-support-community", "type": "index" },
         { "name": "價格", "link": "/zh-hk/pricing", "type": "index" },
+        { "name": "必看問答", "link": "/zh-hk/qna", "type": "index" },
         { "name": "LOG IN", "link": "https://admin.ichef.tw", "type": "external" }
     ],
 
@@ -24,7 +25,6 @@
             { "name": "得獎設計", "link": "/zh-hk/design-award" },
             { "name": "系統規格", "link": "/zh-hk/specification" }
         ], "type": "folders" },
-        { "name": "Q&A", "link": "/zh-hk/qna", "type": "page" },
         { "name": "套裝優惠", "link": "/zh-hk/bundle-price", "type": "page" }
     ],
 
