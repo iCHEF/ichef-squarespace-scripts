@@ -5,8 +5,9 @@
     },
 
     "headerNav": [
-        { "name": "餐廳文章列表", "link": "/zh-tw/blog/article", "type": "index" },
-        { "name": "餐廳主俱樂部", "link": "/zh-tw/blog/event", "type": "index" },
+        { "name": "餐廳主俱樂部", "link": "/zh-tw/blog/home", "type": "index" },
+        { "name": "開餐廳學堂", "link": "/zh-tw/blog/bootcamp", "type": "index" },
+        { "name": "開餐廳文章", "link": "/zh-tw/blog/article", "type": "index" },
         { "name": "開餐廳懶人包", "link": "/zh-tw/blog/subscribe", "type": "index" }
     ],
 
@@ -21,7 +22,7 @@
     ],
 
     "socialLinks": {
-        "facebook": "https://www.facebook.com/icheftw",
+        "facebook": "https://www.facebook.com/ichefclub",
         "youtube": "https://www.youtube.com/user/iCHEFPoS",
         "email": "mailto:service@ichef.com.tw"
     },
