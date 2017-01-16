@@ -5,6 +5,7 @@
     },
 
     "headerNav": [
+        { "name": "開餐廳學堂", "link": "/zh-hk/blog/bootcamp", "type": "index" },
         { "name": "文章列表", "link": "/zh-hk/blog/article", "type": "index" },
         { "name": "最新活動", "link": "/zh-hk/blog/event", "type": "index" },
         { "name": "訂閱餐廳經營指南", "link": "/zh-hk/blog/subscribe", "type": "index" }
