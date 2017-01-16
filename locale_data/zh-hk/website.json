@@ -25,7 +25,7 @@
             { "name": "得獎設計", "link": "/zh-hk/design-award" },
             { "name": "系統規格", "link": "/zh-hk/specification" }
         ], "type": "folders" },
-        { "name": "套裝優惠", "link": "/zh-hk/bundle-price", "type": "page" }
+        { "name": "iCHEF CLUB", "link": "/zh-hk/blog/home", "type": "page" }
     ],
 
     "companyInfo": [
