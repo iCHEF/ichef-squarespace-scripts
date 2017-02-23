@@ -5,7 +5,7 @@
     },
 
     "headerNav": [
-        { "name": "ARTICLE", "link": "/en-sg/blog/article", "type": "page" },
+        { "name": "ARTICLES", "link": "/en-sg/blog/article", "type": "page" },
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "page" },
         { "name": "BOOTCAMP", "link": "/en-sg/blog/bootcamp", "type": "page" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
