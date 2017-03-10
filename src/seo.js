@@ -2,7 +2,7 @@
 //   Google Tag Manager
 // -------------------------------------
 
-export function applyGTM(gtmCode) {
+function renderGTM(gtmCode) {
     /* eslint-disable */
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -10,6 +10,16 @@ export function applyGTM(gtmCode) {
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer',gtmCode);
     /* eslint-enable */
+}
+
+export function applyGTM(gtmCodes) {
+    if (typeof gtmCodes === 'string') {
+        return renderGTM(gtmCodes);
+    }
+
+    return gtmCodes.forEach((code) => {
+        renderGTM(code);
+    });
 }
 
 // -------------------------------------
