@@ -33,6 +33,6 @@
     },
 
     "seo": {
-        "gtm": "GTM-TNFN22"
+        "gtm": ["GTM-TNFN22, GTM-T97CJRD"]
     }
 }
