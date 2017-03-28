@@ -30,10 +30,7 @@
             { "name": "系統規格", "link": "/zh-tw/specification" }
         ], "type": "folders" },
         { "name": "電子發票", "link": "/zh-tw/pos-register-cashier-e-invoice", "type": "index" },
-        { "name": "中信支付", "links": [
-            { "name": "行動刷卡", "link": "/zh-tw/ctbc-mpos" },
-            { "name": "手機支付", "link": "/zh-tw/ctbc-mobile-pay" }
-        ], "type": "folders" },
+        { "name": "行動刷卡", "link": "/zh-tw/mpos", "type": "index" },
         { "name": "iCHEF Club", "link": "/zh-tw/ichef-club", "type": "page" }
     ],
 
