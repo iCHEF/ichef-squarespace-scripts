@@ -52,7 +52,6 @@
     },
 
     "seo": {
-        "gtm": ["GTM-TNFN22"],
-        "zendesk": "3pTOzVCCRyRDDgXoq5FByXel7ftIw8PQ"
+        "gtm": ["GTM-TNFN22"]
     }
 }
