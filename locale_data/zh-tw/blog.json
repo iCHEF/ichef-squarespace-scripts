@@ -7,6 +7,7 @@
     "headerNav": [
         { "name": "餐廳主俱樂部", "link": "/zh-tw/blog/home", "type": "index" },
         { "name": "開餐廳學堂", "link": "/zh-tw/blog/bootcamp", "type": "index" },
+        { "name": "學堂進階班", "link": "/zh-tw/blog/bootcamp-102", "type": "index" },
         { "name": "開餐廳文章", "link": "/zh-tw/blog/article", "type": "index" },
         { "name": "開店創業懶人包", "link": "/zh-tw/blog/subscribe", "type": "index" }
     ],
