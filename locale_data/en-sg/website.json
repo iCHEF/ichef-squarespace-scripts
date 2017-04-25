@@ -11,7 +11,7 @@
         { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
         { "name": "PRICING", "link": "/en-sg/pricing", "type": "index" },
         { "name": "BLOG", "link": "https://www.ichefpos.com/en-sg/blog", "type": "external" },
-        { "name": "LOG IN", "link": "https://admin.ichef.tw", "type": "external" },
+        { "name": "LOG IN", "link": "https://login.ichefpos.com", "type": "external" },
         { "name": "SG(EN)", "link": "/language", "type": "index" }
     ],
 
