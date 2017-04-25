@@ -11,7 +11,7 @@
         { "name": "使用案例", "link": "/zh-hk/user-case", "type": "index" },
         { "name": "價格", "link": "/zh-hk/pricing", "type": "index" },
         { "name": "必看問答", "link": "/zh-hk/qna", "type": "index" },
-        { "name": "LOG IN", "link": "https://admin.ichef.tw", "type": "external" },
+        { "name": "LOG IN", "link": "https://login.ichefpos.com", "type": "external" },
         { "name": "香港(中文)", "link": "/language", "type": "index" }
     ],
 
