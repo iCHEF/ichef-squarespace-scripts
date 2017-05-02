@@ -31,7 +31,7 @@
         ], "type": "folders" },
         { "name": "電子發票", "link": "/zh-tw/pos-register-cashier-e-invoice", "type": "index" },
         { "name": "行動刷卡", "link": "/zh-tw/apple-pay-pos", "type": "index" },
-        { "name": "iCHEF Club", "link": "/zh-tw/ichef-club", "type": "page" },
+        { "name": "iCHEF CLUB", "link": "/zh-tw/ichef-club", "type": "page" },
         { "name": "食材市集", "link": "/zh-tw/ichef-marketplace", "type": "page" }
     ],
 
