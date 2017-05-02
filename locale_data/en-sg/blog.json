@@ -9,6 +9,7 @@
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "page" },
         { "name": "BOOTCAMP101", "link": "/en-sg/blog/bootcamp", "type": "page" },
         { "name": "BOOTCAMP102", "link": "/en-sg/blog/bootcamp-102", "type": "page" },
+        { "name": "BOOTCAMP103", "link": "/en-sg/blog/bootcamp-103", "type": "page" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
     ],
 
