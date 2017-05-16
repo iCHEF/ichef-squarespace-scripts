@@ -39,10 +39,6 @@ import homeLocaleRedirect from './home_locale_redirect';
             seo
         } = await getlocaleData() || {};
 
-        // Update header contents
-        if (headerLogo) updateHeaderLogo(headerLogo);
-        if (headerNav) updateHeaderNav(headerNav);
-
         // Show hidden header container
         setTimeout(() => {
             showHeaderContainer();
@@ -52,7 +48,6 @@ import homeLocaleRedirect from './home_locale_redirect';
         if (companyInfo) updateFooterCompanyInfo(companyInfo);
         if (socialLinks) updateFooterSocialLinks(socialLinks);
         if (currentLocale) updateFooterCurrentLocale(currentLocale);
-        if (footerNav) updateFooterNav(footerNav);
 
         // Apply SEO(s)
         if (seo) {
