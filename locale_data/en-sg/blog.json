@@ -8,9 +8,10 @@
         { "name": "ARTICLES", "link": "/en-sg/blog/article", "type": "page" },
         { "name": "EVENT", "link": "/en-sg/blog/event", "type": "page" },
         { "name": "BOOTCAMP", "links": [
-            { "name": "BOOTCAMP 101", "link": "/en-sg/bootcamp" },
-            { "name": "BOOTCAMP 102", "link": "/en-sg/bootcamp-102" },
-            { "name": "BOOTCAMP 103", "link": "/en-sg/bootcamp-103" }
+            { "name": "BOOTCAMP 101", "link": "/en-sg/blog/bootcamp" },
+            { "name": "BOOTCAMP 102", "link": "/en-sg/blog/bootcamp-102" },
+            { "name": "BOOTCAMP 103", "link": "/en-sg/blog/bootcamp-103" },
+            { "name": "BOOTCAMP 103", "link": "/en-sg/blog/bootcamp-104" }
         ], "type": "folders" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
     ],
