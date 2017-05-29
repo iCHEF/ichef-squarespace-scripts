@@ -11,7 +11,7 @@
             { "name": "BOOTCAMP 101", "link": "/en-sg/blog/bootcamp" },
             { "name": "BOOTCAMP 102", "link": "/en-sg/blog/bootcamp-102" },
             { "name": "BOOTCAMP 103", "link": "/en-sg/blog/bootcamp-103" },
-            { "name": "BOOTCAMP 103", "link": "/en-sg/blog/bootcamp-104" }
+            { "name": "BOOTCAMP 104", "link": "/en-sg/blog/bootcamp-104" }
         ], "type": "folders" },
         { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
     ],
