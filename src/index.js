@@ -1,16 +1,13 @@
 import getlocaleData from './get_locale_data';
 
 import {
-    updateHeaderLogo,
-    updateHeaderNav,
     showHeaderContainer
 } from './update_header';
 
 import {
     updateFooterCompanyInfo,
     updateFooterSocialLinks,
-    updateFooterCurrentLocale,
-    updateFooterNav
+    updateFooterCurrentLocale
 } from './update_footer';
 
 import {
@@ -27,19 +24,14 @@ import homeLocaleRedirect from './home_locale_redirect';
         homeLocaleRedirect();
 
         const {
-            // Header contents
-            headerLogo,
-            headerNav,
             // Footer contents
             companyInfo,
             socialLinks,
             currentLocale,
-            footerNav,
             // SEO
             seo
         } = await getlocaleData() || {};
 
-     
         // Show hidden header container
         setTimeout(() => {
             showHeaderContainer();
@@ -49,7 +41,6 @@ import homeLocaleRedirect from './home_locale_redirect';
         if (companyInfo) updateFooterCompanyInfo(companyInfo);
         if (socialLinks) updateFooterSocialLinks(socialLinks);
         if (currentLocale) updateFooterCurrentLocale(currentLocale);
-       
 
         // Apply SEO(s)
         if (seo) {
