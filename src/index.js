@@ -1,6 +1,7 @@
 import getlocaleData from './get_locale_data';
 
 import {
+    updateHeaderLogo,
     showHeaderContainer
 } from './update_header';
 
