@@ -34,7 +34,6 @@ import homeLocaleRedirect from './home_locale_redirect';
             // SEO
             seo
         } = await getlocaleData() || {};
-        
         // Update header contents
         if (headerLogo) updateHeaderLogo(headerLogo);
 
