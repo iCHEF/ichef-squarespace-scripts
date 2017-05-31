@@ -25,12 +25,16 @@ import homeLocaleRedirect from './home_locale_redirect';
 
         const {
             // Footer contents
+            headerLogo,
             companyInfo,
             socialLinks,
             currentLocale,
             // SEO
             seo
         } = await getlocaleData() || {};
+        
+        // Update header contents
+        if (headerLogo) updateHeaderLogo(headerLogo);
 
         // Show hidden header container
         setTimeout(() => {
