@@ -25,8 +25,9 @@ import homeLocaleRedirect from './home_locale_redirect';
         homeLocaleRedirect();
 
         const {
-            // Footer contents
+            // Header contents
             headerLogo,
+            // Footer contents
             companyInfo,
             socialLinks,
             currentLocale,
