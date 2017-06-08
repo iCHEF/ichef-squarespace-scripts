@@ -1,6 +1,7 @@
 import getlocaleData from './get_locale_data';
 
 import {
+    updateHeaderLogo,
     showHeaderContainer
 } from './update_header';
 
@@ -24,6 +25,8 @@ import homeLocaleRedirect from './home_locale_redirect';
         homeLocaleRedirect();
 
         const {
+            // Header contents
+            headerLogo,
             // Footer contents
             companyInfo,
             socialLinks,
@@ -31,6 +34,8 @@ import homeLocaleRedirect from './home_locale_redirect';
             // SEO
             seo
         } = await getlocaleData() || {};
+        // Update header contents
+        if (headerLogo) updateHeaderLogo(headerLogo);
 
         // Show hidden header container
         setTimeout(() => {
