@@ -1,9 +1,7 @@
 import getlocaleData from './get_locale_data';
 
-import {
-    updateHeaderLogo,
-    showHeaderContainer
-} from './update_header';
+import homeLocaleRedirect from './home_locale_redirect';
+import updateHeaderLogo from './update_header_logo';
 
 import {
     updateFooterCompanyInfo,
@@ -16,8 +14,6 @@ import {
     applyFacebookPixel,
     applyZendeskChat
 } from './seo';
-
-import homeLocaleRedirect from './home_locale_redirect';
 
 (async function ichefSquarespaceScripts() {
     try {
@@ -36,11 +32,6 @@ import homeLocaleRedirect from './home_locale_redirect';
         } = await getlocaleData() || {};
         // Update header contents
         if (headerLogo) updateHeaderLogo(headerLogo);
-
-        // Show hidden header container
-        setTimeout(() => {
-            showHeaderContainer();
-        });
 
         // Update footer contents
         if (companyInfo) updateFooterCompanyInfo(companyInfo);
