@@ -1,0 +1,43 @@
+{
+    "headerLogo": {
+        "image": "/s/iCHEFClubSG-index-Logo-white2.png",
+        "link": "/en-sg/blog/home"
+    },
+
+    "headerNav": [
+        { "name": "ARTICLES", "link": "/en-sg/blog/article", "type": "page" },
+        { "name": "EVENT", "link": "/en-sg/blog/event", "type": "page" },
+        { "name": "BOOTCAMP", "links": [
+            { "name": "BOOTCAMP 101", "link": "/en-sg/blog/bootcamp" },
+            { "name": "BOOTCAMP 102", "link": "/en-sg/blog/bootcamp-102" },
+            { "name": "BOOTCAMP 103", "link": "/en-sg/blog/bootcamp-103" },
+            { "name": "BOOTCAMP 104", "link": "/en-sg/blog/bootcamp-104" }
+        ], "type": "folders" },
+        { "name": "SUBSCRIBE", "link": "/en-sg/blog/subscribe", "type": "page" }
+    ],
+
+    "footerNav": [
+        { "name": "iCHEF F&B POS", "link": "/en-sg", "type": "page"}
+    ],
+
+    "companyInfo": [
+      "iCHEF SG PTE LTD",
+      "<a href='https://goo.gl/maps/PL1jDk5NATy'> 261 Waterloo Street #03-32 S(180261) </a>",
+      "<a href='tel:90068495'> 9006-8495 </a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichef.pos.singapore",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:jay@ichefpos.sg"
+    },
+
+    "currentLocale": {
+        "name": "Singapore English",
+        "image": "https://icheftw.squarespace.com/s/flag-singapore.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-NDVCL8"
+    }
+}

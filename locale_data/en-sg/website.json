@@ -1,0 +1,53 @@
+{
+    "headerLogo": {
+        "image": "/s/iCHEF-SG-logo-white.png",
+        "link": "/en-sg"
+    },
+
+    "headerNav": [
+        { "name": "SYSTEM", "link": "/en-sg/interface-flow", "type": "index" },
+        { "name": "ANALYTICS", "link": "/en-sg/analytics-management", "type": "index" },
+        { "name": "SERVICE", "link": "/en-sg/service-support-community", "type": "index" },
+        { "name": "USERCASE", "link": "/en-sg/user-case", "type": "index" },
+        { "name": "PRICING", "link": "/en-sg/pricing", "type": "index" },
+        { "name": "BLOG", "link": "https://www.ichefpos.com/en-sg/blog", "type": "external" },
+        { "name": "LOG IN", "link": "https://login.ichefpos.com", "type": "external" },
+        { "name": "SG(EN)", "link": "/language", "type": "index" }
+    ],
+
+    "footerNav": [
+        { "name": "Contact iCHEF", "link": "/en-sg/contact-ichef", "type": "page"},
+        { "name": "About iCHEF", "links": [
+                { "name": "iCHEF Story", "link": "/en-sg/about-ichef" },
+                { "name": "Media Report", "link": "/en-sg/media-report" }
+        ], "type": "folders" },
+        { "name": "iCHEF Design", "links": [
+                { "name": "About iCHEF", "link": "/en-sg/ichef-story" },
+                { "name": "Design Concept", "link": "/en-sg/design-concept" },
+                { "name": "Design Award", "link": "/en-sg/design-award" },
+                { "name": "Spec", "link": "/en-sg/specification" }
+        ], "type": "folders" },
+        { "name": "iCHEF Club SG", "link": "/en-sg/blog/home", "type": "page"}
+    ],
+
+    "companyInfo": [
+      "iCHEF SG PTE LTD",
+      "<a href='https://goo.gl/maps/PL1jDk5NATy'> 261 Waterloo Street #03-32 S(180261) </a>",
+      "<a href='tel:90068495'> 9006-8495 </a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichef.pos.singapore",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:jay@ichefpos.sg"
+    },
+
+    "currentLocale": {
+        "name": "Singapore English",
+        "image": "/s/flag-singapore.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-NDVCL8"
+    }
+}

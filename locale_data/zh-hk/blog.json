@@ -1,0 +1,40 @@
+{
+    "headerLogo": {
+        "image": "/s/iCHEFClubHK-index-Logo-white2.png",
+        "link": "/zh-hk/blog/home"
+    },
+
+    "headerNav": [
+        { "name": "開餐廳學堂", "link": "/zh-hk/blog/bootcamp", "type": "index" },
+        { "name": "文章列表", "link": "/zh-hk/blog/article", "type": "index" },
+        { "name": "牌照裝修列表", "link": "/zh-hk/blog/renovation-list", "type": "index" },
+        { "name": "最新活動", "link": "/zh-hk/blog/event", "type": "index" },
+        { "name": "訂閱餐廳經營指南", "link": "/zh-hk/blog/subscribe", "type": "index" }
+    ],
+
+    "footerNav": [
+        { "name": "iCHEF餐飲POS", "link": "/zh-hk", "type": "page" },
+        { "name": "訂閱餐廳經營指南", "link": "/zh-hk/blog/subscribe", "type": "page" }
+    ],
+
+    "companyInfo": [
+      "資廚(香港)管理顧問股份有限公司<br/>iCHEF (Hong Kong) CO., LIMITED",
+      "<a href='https://goo.gl/maps/PL1jDk5NATy'>香港九龍觀塘興業街 16-18 號，美興工業大廈 A 座 9 樓 9 室<br/>Room 9, 9/F block A, Mai Hing Industrial Building, 16-18, Hing Yip Street, Kwun Tong, Kowloon, Hong Kong</a>",
+      "免費客服專線<br/><a href='tel:28166615'>TEL: 2816-6615</a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichef.pos.hongkong",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:service@ichef.com.hk"
+    },
+
+    "currentLocale": {
+        "name": "香港中文",
+        "image": "https://icheftw.squarespace.com/s/flag-hongkong.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-MHPGF8"
+    }
+}

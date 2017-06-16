@@ -1,0 +1,33 @@
+{
+    "headerLogo": {
+        "image": "https://icheftw.squarespace.com/s/no-more-doubts_logo.png",
+        "link": "http://www.ichefpos.com/event/no-more-doubts"
+    },
+
+    "headerNav": [
+        { "name": "買 POS 系統想買斷", "link": "http://www.ichefpos.com/event/no-more-doubts-1", "type": "page" },
+        { "name": "賣 POS 的庫存功能", "link": "http://www.ichefpos.com/event/no-more-doubts-2", "type": "page" },
+        { "name": " POS 用不到那麼好", "link": "http://www.ichefpos.com/event/no-more-doubts-3", "type": "page" }
+    ],
+
+    "footerNav": [
+        { "name": "iCHEF 餐飲 POS", "link": "http://www.ichefpos.com/zh-tw", "type": "external" },
+        { "name": "iCHEF Club", "link": "http://www.ichefpos.com/zh-tw/ichef-club", "type": "external" },
+        { "name": "就愛開餐廳", "link": "http://blog.ichef.tw/", "type": "external" }
+    ],
+
+    "companyInfo": [
+      "資廚管理顧問股份有限公司 iCHEF CO., LTD.",
+      "11090 台北市信義區松山路132號3樓<br>3F., No. 132, Songshan Rd., Xinyi Dist., Taipei City 11090, Taiwan",
+      "免費客服專線<br><a href='tel:0800889055'>0800-889-055</a>"
+    ], 
+    "currentLocale": {
+	        "name": "台灣中文",
+	        "image": "https://icheftw.squarespace.com/s/flag-taiwan.png"
+	    },
+
+
+    "seo": {
+        "gtm": "GTM-TNFN22"
+    }
+}

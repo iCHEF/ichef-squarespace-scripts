@@ -1,0 +1,52 @@
+{
+    "headerLogo": {
+        "image": "/s/iCHEF-MY-logo-white.png",
+        "link": "/en-my"
+    },
+
+    "headerNav": [
+        { "name": "SYSTEM", "link": "/en-my/interface-flow", "type": "index" },
+        { "name": "ANALYTICS", "link": "/en-my/analytics-management", "type": "index" },
+        { "name": "SERVICE", "link": "/en-my/service-support-community", "type": "index" },
+        { "name": "USERCASE", "link": "/en-my/user-case", "type": "index" },
+        { "name": "PRICING", "link": "/en-my/pricing", "type": "index" },
+        { "name": "Q&A", "link": "/en-my/qna", "type": "index" },
+        { "name": "LOG IN", "link": "https://login.ichefpos.com", "type": "external" },
+        { "name": "MY(EN)", "link": "/language", "type": "index" }
+    ],
+
+    "footerNav": [
+        { "name": "Contact iCHEF", "link": "/en-my/contact-ichef", "type": "page"},
+        { "name": "About iCHEF", "links": [
+                { "name": "iCHEF Story", "link": "/en-my/about-ichef" },
+                { "name": "Media Report", "link": "/en-my/media-report" }
+        ], "type": "folders" },
+        { "name": "iCHEF Design", "links": [
+                { "name": "About iCHEF", "link": "/en-my/ichef-story" },
+                { "name": "Design Concept", "link": "/en-my/design-concept" },
+                { "name": "Design Award", "link": "/en-my/design-award" },
+                { "name": "Spec", "link": "/en-my/specification" }
+        ], "type": "folders" }
+    ],
+
+    "companyInfo": [
+      "CHEF TECHNOLOGY SDN. BHD.",
+      "<a href='https://goo.gl/maps/MuR3ygQ9RcM2'> Level 3 & 4, Wisma Suria, Jalan Teknokrat 6, Cyber 5, 63000 Cyberjaya, Selangor, Malaysia </a>",
+      "Hotline<br/><a href='tel:0104078628'> 010-4078628 </a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichef.pos.malaysia",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:support@chef-technology.com"
+    },
+
+    "currentLocale": {
+        "name": "Malaysia English",
+        "image": "/s/flag-malaysia.png"
+    },
+
+    "seo": {
+        "gtm": "GTM-KTF5G2"
+    }
+}

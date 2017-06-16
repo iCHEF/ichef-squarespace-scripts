@@ -1,0 +1,58 @@
+{
+    "headerLogo": {
+        "image": "/s/iCHEF-index-Logo-white.png",
+        "link": "/zh-tw"
+    },
+
+    "headerNav": [
+        { "name": "系統與介面", "link": "/zh-tw/interface-flow", "type": "index" },
+        { "name": "報表與管理", "link": "/zh-tw/analytics-management", "type": "index" },
+        { "name": "服務與保固", "link": "/zh-tw/service-support-community", "type": "index" },
+        { "name": "使用案例", "link": "/zh-tw/user-case", "type": "index" },
+        { "name": "價格", "link": "/zh-tw/pricing", "type": "index" },
+        { "name": "必看問答", "link": "/zh-tw/qna", "type": "index" },
+        { "name": "LOG IN", "link": "https://login.ichefpos.com", "type": "external" },
+        { "name": "台灣(中文)", "link": "/language", "type": "index" }
+    ],
+
+    "footerNav": [
+        { "name": "洽詢與購買", "link": "/zh-tw/contact-ichef", "type": "page" },
+        { "name": "關於資廚", "links": [
+            { "name": "關於資廚", "link": "/zh-tw/about-ichef" },
+            { "name": "媒體報導", "link": "/zh-tw/media-report" },
+            { "name": "誠徵夥伴", "link": "/zh-tw/join-us" },
+            { "name": "企業方案", "link": "/zh-tw/enterprise-program" }
+        ], "type": "folders" },
+        { "name": "得獎設計", "links": [
+            { "name": "老闆心聲", "link": "/zh-tw/ichef-story" },
+            { "name": "設計理念", "link": "/zh-tw/design-concept" },
+            { "name": "得獎設計", "link": "/zh-tw/design-award" },
+            { "name": "系統規格", "link": "/zh-tw/specification" }
+        ], "type": "folders" },
+        { "name": "電子發票", "link": "/zh-tw/pos-register-cashier-e-invoice", "type": "index" },
+        { "name": "行動刷卡", "link": "/zh-tw/apple-pay-pos", "type": "index" },
+        { "name": "iCHEF CLUB", "link": "/zh-tw/ichef-club", "type": "page" },
+        { "name": "食材市集", "link": "/zh-tw/ichef-marketplace", "type": "page" }
+    ],
+
+    "companyInfo": [
+        "資廚管理顧問股份有限公司 iCHEF CO., LTD.",
+        "<a href='https://goo.gl/maps/z1jLSQ5LZoG2'>台北市信義區松山路 132 號 3 樓<br/>3F., No. 132, Songshan Rd., Xinyi Dist., Taipei City 11090, Taiwan</a>",
+        "服務專線 <a href='tel:0227600120'>02-2760-0120</a><br/>週一至週五 09:30-18:30<br/>非服務時段請<a href='https://www.ichefpos.com/zh-tw/contact-ichef'>填表單留言</a>"
+    ],
+
+    "socialLinks": {
+        "facebook": "https://www.facebook.com/ichef.pos.taiwan",
+        "youtube": "https://www.youtube.com/user/iCHEFPoS",
+        "email": "mailto:service@ichef.com.tw"
+    },
+
+    "currentLocale": {
+        "name": "台灣中文",
+        "image": "/s/flag-taiwan.png"
+    },
+
+    "seo": {
+        "gtm": ["GTM-TNFN22", "GTM-T97CJRD"]
+    }
+}
